@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutor Schedule Finder</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Patua+One&display=swap" rel="stylesheet">
+
+  <!-- Tabler Icons (for accessibility widget) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- =========================
+       PAGE HEADER
+       ========================= -->
+  <header>
+    <div class="page-shell">
+      <div class="brand-row">
+        <div class="brand-badge" aria-hidden="true">UTRGV</div>
+        <div>
+          <h1>Tutor Schedule Finder</h1>
+          <p class="subtitle">UTRGV Learning Center   ·   Search by course, by day, or both</p>
+        </div>
+      </div>
+
+      <div class="search-row" role="search" aria-label="Tutor search tools">
+        <!-- SEARCH BOX 1: COURSE / SUBJECT -->
+        <div class="search-group">
+          <label for="course-search-input">Search by Subject or Course Code</label>
+          <input
+            id="course-search-input"
+            type="search"
+            placeholder="Example: CSCI 1101, Calculus, Biology"
+            autocomplete="off"
+            aria-describedby="course-help"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="course-suggestions"
+          >
+          <p id="course-help" class="help-text">
+            Start typing a course code or course name. You can also combine it with a day search.
+          </p>
+          <div
+            id="course-suggestions"
+            class="suggestions"
+            role="listbox"
+            aria-label="Course suggestions"
+          ></div>
+        </div>
+
+        <!-- SEARCH BOX 2: DAY -->
+        <div class="search-group">
+          <label for="day-search-input">Search by Day</label>
+          <input
+            id="day-search-input"
+            type="search"
+            placeholder="Example: Monday, Tuesday, Wednesday"
+            autocomplete="off"
+            aria-describedby="day-help"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="day-suggestions"
+          >
+          <p id="day-help" class="help-text">
+            Type a weekday to see tutors available that day. You can also combine it with a course search.
+          </p>
+          <div
+            id="day-suggestions"
+            class="suggestions"
+            role="listbox"
+            aria-label="Day suggestions"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================
+       MAIN RESULTS AREA
+       ========================= -->
+  <main id="main-content" class="page-shell" tabindex="-1">
+    <section id="empty-state" class="empty-state" aria-live="polite">
+      <h2>Find a Tutor or Day</h2>
+      <p>Use the search boxes above to browse the schedule.</p>
+    </section>
+
+    <section id="results-area" aria-live="polite" aria-atomic="false"></section>
+  </main>
+
+  <!-- =========================
+       ACCESSIBILITY WIDGET
+       ========================= -->
+
+  <!-- Floating button -->
+  <button
+    class="a11y-fab"
+    id="a11yBtn"
+    aria-label="Open accessibility options"
+    aria-expanded="false"
+    aria-controls="a11yPanel"
+  >♿</button>
+
+  <!-- Accessibility panel -->
+  <div
+    class="a11y-panel"
+    id="a11yPanel"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Accessibility options"
+  >
+    <div class="a11y-panel-header">
+      <h2>Accessibility</h2>
+      <button class="a11y-close" id="a11yClose" aria-label="Close accessibility panel">✕</button>
+    </div>
+
+    <div class="a11y-body">
+
+      <!-- High Contrast -->
+      <div
+        class="a11y-option"
+        id="a11y-opt-contrast"
+        role="button"
+        tabindex="0"
+        aria-pressed="false"
+      >
+        <span class="a11y-option-label">
+          <i class="ti ti-contrast" aria-hidden="true"></i>
+          High Contrast
+        </span>
+        <button
+          class="a11y-toggle"
+          id="a11y-tog-contrast"
+          aria-label="Toggle high contrast"
+          tabindex="-1"
+        ></button>
+      </div>
+
+      <!-- Dyslexia Font -->
+      <div
+        class="a11y-option"
+        id="a11y-opt-dyslexia"
+        role="button"
+        tabindex="0"
+        aria-pressed="false"
+      >
+        <span class="a11y-option-label">
+          <i class="ti ti-letter-case" aria-hidden="true"></i>
+          Dyslexia Font
+        </span>
+        <button
+          class="a11y-toggle"
+          id="a11y-tog-dyslexia"
+          aria-label="Toggle dyslexia-friendly font"
+          tabindex="-1"
+        ></button>
+      </div>
+
+      <!-- Reduce Motion -->
+      <div
+        class="a11y-option"
+        id="a11y-opt-motion"
+        role="button"
+        tabindex="0"
+        aria-pressed="false"
+      >
+        <span class="a11y-option-label">
+          <i class="ti ti-player-pause" aria-hidden="true"></i>
+          Reduce Motion
+        </span>
+        <button
+          class="a11y-toggle"
+          id="a11y-tog-motion"
+          aria-label="Toggle reduce motion"
+          tabindex="-1"
+        ></button>
+      </div>
+
+      <!-- Grayscale -->
+      <div
+        class="a11y-option"
+        id="a11y-opt-grayscale"
+        role="button"
+        tabindex="0"
+        aria-pressed="false"
+      >
+        <span class="a11y-option-label">
+          <i class="ti ti-color-swatch-off" aria-hidden="true"></i>
+          Grayscale
+        </span>
+        <button
+          class="a11y-toggle"
+          id="a11y-tog-grayscale"
+          aria-label="Toggle grayscale"
+          tabindex="-1"
+        ></button>
+      </div>
+
+      <!-- Text Size -->
+      <div class="a11y-font-row">
+        <span class="a11y-font-label">
+          <i class="ti ti-typography" aria-hidden="true"></i>
+          Text Size
+        </span>
+        <div class="a11y-font-controls">
+          <button
+            class="a11y-font-btn"
+            id="a11y-font-dec"
+            aria-label="Decrease text size"
+          >−</button>
+          <span
+            class="a11y-font-size-display"
+            id="a11y-font-display"
+            aria-live="polite"
+          >100%</span>
+          <button
+            class="a11y-font-btn"
+            id="a11y-font-inc"
+            aria-label="Increase text size"
+          >+</button>
+        </div>
+      </div>
+
+      <!-- Reset -->
+      <button class="a11y-reset" id="a11y-reset">Reset all</button>
+
+    </div>
+  </div>
+
+  <!-- Data file first -->
+  <script src="data.js"></script>
+
+  <!-- Main page behavior -->
+  <script src="script.js"></script>
+
+  <!-- Accessibility widget -->
+  <script src="a11y-widget.js"></script>
+
+</body>
+</html>
