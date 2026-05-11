@@ -81,6 +81,34 @@
           ></div>
         </div>
       </div>
+
+      <!-- =========================
+           CAMPUS PILL TOGGLE
+           ========================= -->
+      <div class="campus-filter-row">
+        <span class="campus-filter-label">Campus</span>
+        <div class="campus-pills" role="group" aria-label="Filter by campus">
+          <button
+            class="campus-pill active"
+            id="campus-pill-all"
+            data-campus="all"
+            aria-pressed="true"
+          >All</button>
+          <button
+            class="campus-pill"
+            id="campus-pill-edinburg"
+            data-campus="Edinburg"
+            aria-pressed="false"
+          >Edinburg</button>
+          <button
+            class="campus-pill"
+            id="campus-pill-brownsville"
+            data-campus="Brownsville"
+            aria-pressed="false"
+          >Brownsville</button>
+        </div>
+      </div>
+
     </div>
   </header>
 
@@ -100,7 +128,6 @@
        ACCESSIBILITY WIDGET
        ========================= -->
 
-  <!-- Floating button -->
   <button
     class="a11y-fab"
     id="a11yBtn"
@@ -109,7 +136,6 @@
     aria-controls="a11yPanel"
   >♿</button>
 
-  <!-- Accessibility panel -->
   <div
     class="a11y-panel"
     id="a11yPanel"
@@ -121,117 +147,42 @@
       <h2>Accessibility</h2>
       <button class="a11y-close" id="a11yClose" aria-label="Close accessibility panel">✕</button>
     </div>
-
     <div class="a11y-body">
-
-      <!-- High Contrast -->
-      <div
-        class="a11y-option"
-        id="a11y-opt-contrast"
-        role="button"
-        tabindex="0"
-        aria-pressed="false"
-      >
+      <div class="a11y-option" id="a11y-opt-contrast" role="button" tabindex="0" aria-pressed="false">
         <span class="a11y-option-label">
-          <i class="ti ti-contrast" aria-hidden="true"></i>
-          High Contrast
+          <i class="ti ti-contrast" aria-hidden="true"></i>High Contrast
         </span>
-        <button
-          class="a11y-toggle"
-          id="a11y-tog-contrast"
-          aria-label="Toggle high contrast"
-          tabindex="-1"
-        ></button>
+        <button class="a11y-toggle" id="a11y-tog-contrast" aria-label="Toggle high contrast" tabindex="-1"></button>
       </div>
-
-      <!-- Dyslexia Font -->
-      <div
-        class="a11y-option"
-        id="a11y-opt-dyslexia"
-        role="button"
-        tabindex="0"
-        aria-pressed="false"
-      >
+      <div class="a11y-option" id="a11y-opt-dyslexia" role="button" tabindex="0" aria-pressed="false">
         <span class="a11y-option-label">
-          <i class="ti ti-letter-case" aria-hidden="true"></i>
-          Dyslexia Font
+          <i class="ti ti-letter-case" aria-hidden="true"></i>Dyslexia Font
         </span>
-        <button
-          class="a11y-toggle"
-          id="a11y-tog-dyslexia"
-          aria-label="Toggle dyslexia-friendly font"
-          tabindex="-1"
-        ></button>
+        <button class="a11y-toggle" id="a11y-tog-dyslexia" aria-label="Toggle dyslexia-friendly font" tabindex="-1"></button>
       </div>
-
-      <!-- Reduce Motion -->
-      <div
-        class="a11y-option"
-        id="a11y-opt-motion"
-        role="button"
-        tabindex="0"
-        aria-pressed="false"
-      >
+      <div class="a11y-option" id="a11y-opt-motion" role="button" tabindex="0" aria-pressed="false">
         <span class="a11y-option-label">
-          <i class="ti ti-player-pause" aria-hidden="true"></i>
-          Reduce Motion
+          <i class="ti ti-player-pause" aria-hidden="true"></i>Reduce Motion
         </span>
-        <button
-          class="a11y-toggle"
-          id="a11y-tog-motion"
-          aria-label="Toggle reduce motion"
-          tabindex="-1"
-        ></button>
+        <button class="a11y-toggle" id="a11y-tog-motion" aria-label="Toggle reduce motion" tabindex="-1"></button>
       </div>
-
-      <!-- Grayscale -->
-      <div
-        class="a11y-option"
-        id="a11y-opt-grayscale"
-        role="button"
-        tabindex="0"
-        aria-pressed="false"
-      >
+      <div class="a11y-option" id="a11y-opt-grayscale" role="button" tabindex="0" aria-pressed="false">
         <span class="a11y-option-label">
-          <i class="ti ti-color-swatch-off" aria-hidden="true"></i>
-          Grayscale
+          <i class="ti ti-color-swatch-off" aria-hidden="true"></i>Grayscale
         </span>
-        <button
-          class="a11y-toggle"
-          id="a11y-tog-grayscale"
-          aria-label="Toggle grayscale"
-          tabindex="-1"
-        ></button>
+        <button class="a11y-toggle" id="a11y-tog-grayscale" aria-label="Toggle grayscale" tabindex="-1"></button>
       </div>
-
-      <!-- Text Size -->
       <div class="a11y-font-row">
         <span class="a11y-font-label">
-          <i class="ti ti-typography" aria-hidden="true"></i>
-          Text Size
+          <i class="ti ti-typography" aria-hidden="true"></i>Text Size
         </span>
         <div class="a11y-font-controls">
-          <button
-            class="a11y-font-btn"
-            id="a11y-font-dec"
-            aria-label="Decrease text size"
-          >−</button>
-          <span
-            class="a11y-font-size-display"
-            id="a11y-font-display"
-            aria-live="polite"
-          >100%</span>
-          <button
-            class="a11y-font-btn"
-            id="a11y-font-inc"
-            aria-label="Increase text size"
-          >+</button>
+          <button class="a11y-font-btn" id="a11y-font-dec" aria-label="Decrease text size">−</button>
+          <span class="a11y-font-size-display" id="a11y-font-display" aria-live="polite">100%</span>
+          <button class="a11y-font-btn" id="a11y-font-inc" aria-label="Increase text size">+</button>
         </div>
       </div>
-
-      <!-- Reset -->
       <button class="a11y-reset" id="a11y-reset">Reset all</button>
-
     </div>
   </div>
 

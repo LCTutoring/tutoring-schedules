@@ -5,6 +5,7 @@
   This file controls:
   - course search
   - day search
+  - campus filter (pill toggle)
   - dropdown suggestions
   - combined filtering results
 
@@ -33,12 +34,13 @@ const uniqueCourses = getUniqueCourses(TUTOR_SCHEDULE_DATA);
 const availableDays = AVAILABLE_DAYS.slice();
 
 /*
-  These two variables store the current chosen filters.
+  These variables store the current chosen filters.
   They update when the user clicks a suggestion,
   presses Enter on a suggestion, or types an exact match.
 */
 let selectedCourseFilter = null;
 let selectedDayFilter = null;
+let selectedCampusFilter = "all"; // "all", "Edinburg", or "Brownsville"
 
 /* =========================
    HELPER FUNCTIONS
@@ -208,10 +210,15 @@ function createTutorCard(entry, options) {
     `;
   }
 
+  /* Show campus badge on the card when "All" is selected so users know which campus */
+  const campusBadge = selectedCampusFilter === "all" && entry.campus
+    ? `<span class="campus-badge">${escapeHtml(entry.campus)}</span>`
+    : "";
+
   return `
     <article class="card">
       <div class="card-header">
-        <h3>${escapeHtml(entry.tutorName)}</h3>
+        <h3>${escapeHtml(entry.tutorName)} ${campusBadge}</h3>
         <p class="card-subtitle">${escapeHtml(entry.courseCode)} · ${escapeHtml(entry.courseName)}</p>
       </div>
       <div class="card-body">
@@ -236,8 +243,9 @@ function renderResultsFromCurrentFilters() {
 
   const hasCourseFilter = Boolean(selectedCourseFilter);
   const hasDayFilter = Boolean(selectedDayFilter);
+  const hasCampusFilter = selectedCampusFilter !== "all";
 
-  if (!hasCourseFilter && !hasDayFilter) {
+  if (!hasCourseFilter && !hasDayFilter && !hasCampusFilter) {
     showEmptyState();
     return;
   }
@@ -246,6 +254,14 @@ function renderResultsFromCurrentFilters() {
 
   let matchingEntries = TUTOR_SCHEDULE_DATA.slice();
 
+  /* ---- Campus filter ---- */
+  if (hasCampusFilter) {
+    matchingEntries = matchingEntries.filter(function (entry) {
+      return entry.campus === selectedCampusFilter;
+    });
+  }
+
+  /* ---- Course filter ---- */
   if (hasCourseFilter) {
     matchingEntries = matchingEntries.filter(function (entry) {
       return (
@@ -255,6 +271,7 @@ function renderResultsFromCurrentFilters() {
     });
   }
 
+  /* ---- Day filter ---- */
   if (hasDayFilter) {
     matchingEntries = matchingEntries.filter(function (entry) {
       return isAvailable(entry.days[selectedDayFilter]);
@@ -271,34 +288,36 @@ function renderResultsFromCurrentFilters() {
 
   if (matchingEntries.length === 0) {
     const titleParts = [];
-
-    if (hasCourseFilter) {
-      titleParts.push(`${selectedCourseFilter.courseCode}`);
-    }
-
-    if (hasDayFilter) {
-      titleParts.push(`${selectedDayFilter}`);
-    }
+    if (hasCampusFilter) titleParts.push(selectedCampusFilter);
+    if (hasCourseFilter) titleParts.push(selectedCourseFilter.courseCode);
+    if (hasDayFilter)    titleParts.push(selectedDayFilter);
 
     const titleText = titleParts.length > 0
-      ? `No results for ${titleParts.join(" + ")}`
+      ? `No results for ${titleParts.join(" · ")}`
       : "No results found";
 
     renderNoResults(titleText, "No tutors matched the current search filters.");
     return;
   }
 
-  let headerTitle = "Filtered Schedule Results";
-  let helperText = "Showing tutors that match the current search filters.";
+  /* ---- Build header title ---- */
+  const titleParts = [];
+  if (hasCampusFilter) titleParts.push(selectedCampusFilter);
+  if (hasCourseFilter) titleParts.push(`${selectedCourseFilter.courseCode} - ${selectedCourseFilter.courseName}`);
+  if (hasDayFilter)    titleParts.push(selectedDayFilter);
 
-  if (hasCourseFilter && hasDayFilter) {
-    headerTitle = `${selectedCourseFilter.courseCode} - ${selectedCourseFilter.courseName} on ${selectedDayFilter}`;
+  const headerTitle = titleParts.length > 0
+    ? titleParts.join("  ·  ")
+    : "Filtered Schedule Results";
+
+  let helperText = "Showing tutors that match the current search filters.";
+  if (hasCampusFilter && !hasCourseFilter && !hasDayFilter) {
+    helperText = `Showing all tutors at the ${selectedCampusFilter} campus.`;
+  } else if (hasCourseFilter && hasDayFilter) {
     helperText = "Showing tutors for the selected course on the selected day.";
   } else if (hasCourseFilter) {
-    headerTitle = `${selectedCourseFilter.courseCode} - ${selectedCourseFilter.courseName}`;
     helperText = "Showing all tutors and weekly times for the selected course.";
   } else if (hasDayFilter) {
-    headerTitle = `Tutors Available on ${selectedDayFilter}`;
     helperText = "Showing tutors available on the selected day.";
   }
 
@@ -306,7 +325,6 @@ function renderResultsFromCurrentFilters() {
     if (hasDayFilter) {
       return createTutorCard(entry, { selectedDay: selectedDayFilter });
     }
-
     return createTutorCard(entry, {});
   }).join("");
 
@@ -322,6 +340,30 @@ function renderResultsFromCurrentFilters() {
       ${cardsHtml}
     </section>
   `;
+}
+
+/* =========================
+   CAMPUS PILL TOGGLE
+   ========================= */
+
+function initCampusPills() {
+  const pills = document.querySelectorAll(".campus-pill");
+
+  pills.forEach(function (pill) {
+    pill.addEventListener("click", function () {
+      /* Update active state */
+      pills.forEach(function (p) {
+        p.classList.remove("active");
+        p.setAttribute("aria-pressed", "false");
+      });
+      pill.classList.add("active");
+      pill.setAttribute("aria-pressed", "true");
+
+      /* Update filter and re-render */
+      selectedCampusFilter = pill.dataset.campus;
+      renderResultsFromCurrentFilters();
+    });
+  });
 }
 
 /* =========================
@@ -580,4 +622,8 @@ document.addEventListener("click", function (event) {
   }
 });
 
+/* =========================
+   INIT
+   ========================= */
+initCampusPills();
 showEmptyState();
