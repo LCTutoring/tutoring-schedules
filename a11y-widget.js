@@ -2,6 +2,16 @@
   ============================================
   ACCESSIBILITY WIDGET
   ============================================
+  Options:
+    - High Contrast
+    - Dyslexia Font
+    - Grayscale
+    - Letter Spacing
+    - Line Height
+    - Focus Highlight
+    - Reading Guide
+    - Bigger Touch Targets
+    - Text Size (slider)
 */
 
 (function () {
@@ -9,11 +19,15 @@
   var STORAGE_KEY = 'a11y-prefs';
 
   var defaults = {
-    contrast:  false,
-    dyslexia:  false,
-    motion:    false,
-    grayscale: false,
-    fontScale: 100
+    contrast:     false,
+    dyslexia:     false,
+    grayscale:    false,
+    letterSpace:  false,
+    lineHeight:   false,
+    focusHighlight: false,
+    readingGuide: false,
+    bigTargets:   false,
+    fontScale:    100
   };
 
   function loadPrefs() {
@@ -33,22 +47,65 @@
 
   var prefs = loadPrefs();
 
+  /* ---- Reading guide element ---- */
+  var guide = null;
+
+  function createReadingGuide() {
+    if (guide) return;
+    guide = document.createElement('div');
+    guide.id = 'a11y-reading-guide';
+    document.body.appendChild(guide);
+    document.addEventListener('mousemove', moveReadingGuide);
+  }
+
+  function destroyReadingGuide() {
+    if (!guide) return;
+    document.removeEventListener('mousemove', moveReadingGuide);
+    guide.parentNode && guide.parentNode.removeChild(guide);
+    guide = null;
+  }
+
+  function moveReadingGuide(e) {
+    if (!guide) return;
+    guide.style.top = (e.clientY - 12) + 'px';
+  }
+
+  /* ---- Apply all prefs to <body> ---- */
   function applyPrefs() {
     var body = document.body;
-    body.classList.toggle('a11y-high-contrast', prefs.contrast);
-    body.classList.toggle('a11y-dyslexia',      prefs.dyslexia);
-    body.classList.toggle('a11y-reduce-motion', prefs.motion);
-    body.classList.toggle('a11y-grayscale',     prefs.grayscale && !prefs.contrast);
+
+    body.classList.toggle('a11y-high-contrast',   prefs.contrast);
+    body.classList.toggle('a11y-dyslexia',         prefs.dyslexia);
+    body.classList.toggle('a11y-grayscale',        prefs.grayscale && !prefs.contrast);
+    body.classList.toggle('a11y-letter-spacing',   prefs.letterSpace);
+    body.classList.toggle('a11y-line-height',      prefs.lineHeight);
+    body.classList.toggle('a11y-focus-highlight',  prefs.focusHighlight);
+    body.classList.toggle('a11y-big-targets',      prefs.bigTargets);
+
     body.style.fontSize = prefs.fontScale + '%';
+
+    /* Reading guide */
+    if (prefs.readingGuide) {
+      createReadingGuide();
+    } else {
+      destroyReadingGuide();
+    }
+
     savePrefs(prefs);
     syncUI();
   }
 
+  /* ---- Sync toggle buttons and font display ---- */
   function syncUI() {
-    setToggle('contrast',  prefs.contrast);
-    setToggle('dyslexia',  prefs.dyslexia);
-    setToggle('motion',    prefs.motion);
-    setToggle('grayscale', prefs.grayscale);
+    setToggle('contrast',       prefs.contrast);
+    setToggle('dyslexia',       prefs.dyslexia);
+    setToggle('grayscale',      prefs.grayscale);
+    setToggle('letterSpace',    prefs.letterSpace);
+    setToggle('lineHeight',     prefs.lineHeight);
+    setToggle('focusHighlight', prefs.focusHighlight);
+    setToggle('readingGuide',   prefs.readingGuide);
+    setToggle('bigTargets',     prefs.bigTargets);
+
     var display = document.getElementById('a11y-font-display');
     if (display) display.textContent = prefs.fontScale + '%';
   }
@@ -63,6 +120,7 @@
     }
   }
 
+  /* ---- Panel open / close ---- */
   function openPanel() {
     var panel = document.getElementById('a11yPanel');
     var fab   = document.getElementById('a11yBtn');
@@ -88,6 +146,7 @@
     panel.classList.contains('open') ? closePanel() : openPanel();
   }
 
+  /* ---- Wire everything up ---- */
   function init() {
     var fab = document.getElementById('a11yBtn');
     if (fab) fab.addEventListener('click', togglePanel);
@@ -95,6 +154,7 @@
     var closeBtn = document.getElementById('a11yClose');
     if (closeBtn) closeBtn.addEventListener('click', closePanel);
 
+    /* Escape closes panel */
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
         var panel = document.getElementById('a11yPanel');
@@ -102,6 +162,7 @@
       }
     });
 
+    /* Click outside closes panel */
     document.addEventListener('click', function (e) {
       var panel = document.getElementById('a11yPanel');
       var fab   = document.getElementById('a11yBtn');
@@ -115,7 +176,12 @@
       }
     });
 
-    ['contrast', 'dyslexia', 'motion', 'grayscale'].forEach(function (id) {
+    /* Toggle options */
+    [
+      'contrast', 'dyslexia', 'grayscale',
+      'letterSpace', 'lineHeight', 'focusHighlight',
+      'readingGuide', 'bigTargets'
+    ].forEach(function (id) {
       var row = document.getElementById('a11y-opt-' + id);
       if (!row) return;
       function toggle() {
@@ -131,6 +197,7 @@
       });
     });
 
+    /* Font size buttons */
     var incBtn = document.getElementById('a11y-font-inc');
     var decBtn = document.getElementById('a11y-font-dec');
 
@@ -145,6 +212,7 @@
       });
     }
 
+    /* Reset */
     var resetBtn = document.getElementById('a11y-reset');
     if (resetBtn) {
       resetBtn.addEventListener('click', function () {
@@ -153,6 +221,7 @@
       });
     }
 
+    /* Apply saved prefs on load */
     applyPrefs();
   }
 

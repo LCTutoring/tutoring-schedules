@@ -128,6 +128,7 @@
        ACCESSIBILITY WIDGET
        ========================= -->
 
+  <!-- Floating button -->
   <button
     class="a11y-fab"
     id="a11yBtn"
@@ -136,6 +137,7 @@
     aria-controls="a11yPanel"
   >♿</button>
 
+  <!-- Accessibility panel -->
   <div
     class="a11y-panel"
     id="a11yPanel"
@@ -147,34 +149,86 @@
       <h2>Accessibility</h2>
       <button class="a11y-close" id="a11yClose" aria-label="Close accessibility panel">✕</button>
     </div>
+
     <div class="a11y-body">
+
+      <!-- High Contrast -->
       <div class="a11y-option" id="a11y-opt-contrast" role="button" tabindex="0" aria-pressed="false">
         <span class="a11y-option-label">
-          <i class="ti ti-contrast" aria-hidden="true"></i>High Contrast
+          <i class="ti ti-contrast" aria-hidden="true"></i>
+          High Contrast
         </span>
         <button class="a11y-toggle" id="a11y-tog-contrast" aria-label="Toggle high contrast" tabindex="-1"></button>
       </div>
+
+      <!-- Dyslexia Font -->
       <div class="a11y-option" id="a11y-opt-dyslexia" role="button" tabindex="0" aria-pressed="false">
         <span class="a11y-option-label">
-          <i class="ti ti-letter-case" aria-hidden="true"></i>Dyslexia Font
+          <i class="ti ti-letter-case" aria-hidden="true"></i>
+          Dyslexia Font
         </span>
         <button class="a11y-toggle" id="a11y-tog-dyslexia" aria-label="Toggle dyslexia-friendly font" tabindex="-1"></button>
       </div>
-      <div class="a11y-option" id="a11y-opt-motion" role="button" tabindex="0" aria-pressed="false">
-        <span class="a11y-option-label">
-          <i class="ti ti-player-pause" aria-hidden="true"></i>Reduce Motion
-        </span>
-        <button class="a11y-toggle" id="a11y-tog-motion" aria-label="Toggle reduce motion" tabindex="-1"></button>
-      </div>
+
+      <!-- Grayscale -->
       <div class="a11y-option" id="a11y-opt-grayscale" role="button" tabindex="0" aria-pressed="false">
         <span class="a11y-option-label">
-          <i class="ti ti-color-swatch-off" aria-hidden="true"></i>Grayscale
+          <i class="ti ti-color-swatch-off" aria-hidden="true"></i>
+          Grayscale
         </span>
         <button class="a11y-toggle" id="a11y-tog-grayscale" aria-label="Toggle grayscale" tabindex="-1"></button>
       </div>
+
+      <!-- Letter Spacing -->
+      <div class="a11y-option" id="a11y-opt-letterSpace" role="button" tabindex="0" aria-pressed="false">
+        <span class="a11y-option-label">
+          <i class="ti ti-spacing-horizontal" aria-hidden="true"></i>
+          Letter Spacing
+        </span>
+        <button class="a11y-toggle" id="a11y-tog-letterSpace" aria-label="Toggle letter spacing" tabindex="-1"></button>
+      </div>
+
+      <!-- Line Height -->
+      <div class="a11y-option" id="a11y-opt-lineHeight" role="button" tabindex="0" aria-pressed="false">
+        <span class="a11y-option-label">
+          <i class="ti ti-line-height" aria-hidden="true"></i>
+          Line Height
+        </span>
+        <button class="a11y-toggle" id="a11y-tog-lineHeight" aria-label="Toggle line height" tabindex="-1"></button>
+      </div>
+
+      <!-- Focus Highlight -->
+      <div class="a11y-option" id="a11y-opt-focusHighlight" role="button" tabindex="0" aria-pressed="false">
+        <span class="a11y-option-label">
+          <i class="ti ti-focus-2" aria-hidden="true"></i>
+          Focus Highlight
+        </span>
+        <button class="a11y-toggle" id="a11y-tog-focusHighlight" aria-label="Toggle focus highlight" tabindex="-1"></button>
+      </div>
+
+      <!-- Reading Guide -->
+      <div class="a11y-option" id="a11y-opt-readingGuide" role="button" tabindex="0" aria-pressed="false">
+        <span class="a11y-option-label">
+          <i class="ti ti-highlight" aria-hidden="true"></i>
+          Reading Guide
+        </span>
+        <button class="a11y-toggle" id="a11y-tog-readingGuide" aria-label="Toggle reading guide" tabindex="-1"></button>
+      </div>
+
+      <!-- Bigger Touch Targets -->
+      <div class="a11y-option" id="a11y-opt-bigTargets" role="button" tabindex="0" aria-pressed="false">
+        <span class="a11y-option-label">
+          <i class="ti ti-hand-finger" aria-hidden="true"></i>
+          Bigger Touch Targets
+        </span>
+        <button class="a11y-toggle" id="a11y-tog-bigTargets" aria-label="Toggle bigger touch targets" tabindex="-1"></button>
+      </div>
+
+      <!-- Text Size -->
       <div class="a11y-font-row">
         <span class="a11y-font-label">
-          <i class="ti ti-typography" aria-hidden="true"></i>Text Size
+          <i class="ti ti-typography" aria-hidden="true"></i>
+          Text Size
         </span>
         <div class="a11y-font-controls">
           <button class="a11y-font-btn" id="a11y-font-dec" aria-label="Decrease text size">−</button>
@@ -182,7 +236,10 @@
           <button class="a11y-font-btn" id="a11y-font-inc" aria-label="Increase text size">+</button>
         </div>
       </div>
+
+      <!-- Reset -->
       <button class="a11y-reset" id="a11y-reset">Reset all</button>
+
     </div>
   </div>
 
