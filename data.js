@@ -39,7 +39,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12pm - 1:00pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -67,7 +67,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12pm - 1:00pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -402,7 +402,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12pm - 1:00pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -417,7 +417,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12pm - 1:00pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -503,7 +503,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12pm - 1:00pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -518,7 +518,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12pm - 1:00pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -793,7 +793,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
       "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12pm - 1:00pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
