@@ -2099,5 +2099,124 @@ const TUTOR_SCHEDULE_DATA =
       "Thursday": "12:00pm - 2:30pm",
       "Friday": "CLOSED"
     }
+  },
+
+  // ---- HESI Prep ----
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Anatomy & Physiology",
+    "campus": "Brownsville",
+    "tutorName": "Samira Almaguer (Lead Tutor)",
+    "days": {
+      "Monday": "10:00am - 11:00am",
+      "Tuesday": "10:30am - 12:30pm",
+      "Wednesday": "11:30am - 1:00pm",
+      "Thursday": "4:30pm - 6:00pm",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Critical Thinking",
+    "campus": "Brownsville",
+    "tutorName": "Samira Almaguer (Lead Tutor)",
+    "days": {
+      "Monday": "10:00am - 11:00am",
+      "Tuesday": "10:30am - 12:30pm",
+      "Wednesday": "11:30am - 1:00pm",
+      "Thursday": "4:30pm - 6:00pm",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Mathematics",
+    "campus": "Brownsville",
+    "tutorName": "Samira Almaguer (Lead Tutor)",
+    "days": {
+      "Monday": "10:00am - 11:00am",
+      "Tuesday": "10:30am - 12:30pm",
+      "Wednesday": "11:30am - 1:00pm",
+      "Thursday": "4:30pm - 6:00pm",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Vocabulary",
+    "campus": "Brownsville",
+    "tutorName": "Samira Almaguer (Lead Tutor)",
+    "days": {
+      "Monday": "10:00am - 11:00am",
+      "Tuesday": "10:30am - 12:30pm",
+      "Wednesday": "11:30am - 1:00pm",
+      "Thursday": "4:30pm - 6:00pm",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Anatomy & Physiology",
+    "campus": "Brownsville",
+    "tutorName": "Camila Hinojosa",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "9:00am - 2:00pm",
+      "Wednesday": "OFF",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Critical Thinking",
+    "campus": "Brownsville",
+    "tutorName": "Camila Hinojosa",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "9:00am - 2:00pm",
+      "Wednesday": "OFF",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Mathematics",
+    "campus": "Brownsville",
+    "tutorName": "Camila Hinojosa",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "9:00am - 2:00pm",
+      "Wednesday": "OFF",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Reading Comprehension",
+    "campus": "Brownsville",
+    "tutorName": "Camila Hinojosa",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "9:00am - 2:00pm",
+      "Wednesday": "OFF",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Vocabulary",
+    "campus": "Brownsville",
+    "tutorName": "Camila Hinojosa",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "9:00am - 2:00pm",
+      "Wednesday": "OFF",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
   }
 ];
