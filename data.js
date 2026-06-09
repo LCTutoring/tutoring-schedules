@@ -276,6 +276,36 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
+  // ---- BIOL 3313 ----
+  {
+    "courseCode": "BIOL 3313",
+    "courseName": "Genetics",
+    "campus": "Edinburg",
+    "tutorName": "Srinidhi Sompalli",
+    "days": {
+      "Monday": "12:00pm - 3:00pm",
+      "Tuesday": "10:00am - 1:00pm",
+      "Wednesday": "10:00am - 1:00pm",
+      "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- BIOL 3315 ----
+  {
+    "courseCode": "BIOL 3315",
+    "courseName": "Cell & Molecular Biology",
+    "campus": "Edinburg",
+    "tutorName": "Srinidhi Sompalli",
+    "days": {
+      "Monday": "12:00pm - 3:00pm",
+      "Tuesday": "10:00am - 1:00pm",
+      "Wednesday": "10:00am - 1:00pm",
+      "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
   // ---- BMED 1301 ----
   {
     "courseCode": "BMED 1301",
@@ -377,6 +407,36 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
+  // ---- CHEM 3303 ----
+  {
+    "courseCode": "CHEM 3303",
+    "courseName": "Biochemistry I",
+    "campus": "Edinburg",
+    "tutorName": "Srinidhi Sompalli",
+    "days": {
+      "Monday": "12:00pm - 3:00pm",
+      "Tuesday": "10:00am - 1:00pm",
+      "Wednesday": "10:00am - 1:00pm",
+      "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- CHEM 3387 ----
+  {
+    "courseCode": "CHEM 3387",
+    "courseName": "Biochemistry I Honors",
+    "campus": "Edinburg",
+    "tutorName": "Srinidhi Sompalli",
+    "days": {
+      "Monday": "12:00pm - 3:00pm",
+      "Tuesday": "10:00am - 1:00pm",
+      "Wednesday": "10:00am - 1:00pm",
+      "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
   // ---- CSCI 1470 ----
   {
     "courseCode": "CSCI 1470",
@@ -433,6 +493,73 @@ const TUTOR_SCHEDULE_DATA =
       "Tuesday": "9:30am - 3:30pm",
       "Wednesday": "9:30am - 3:30pm",
       "Thursday": "3:00pm - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- HESI Prep ----
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Critical Thinking",
+    "campus": "Edinburg",
+    "tutorName": "Francisco Nunez",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "10:30am - 3:30pm",
+      "Wednesday": "10:30am - 3:30pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Grammar",
+    "campus": "Edinburg",
+    "tutorName": "Francisco Nunez",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "10:30am - 3:30pm",
+      "Wednesday": "10:30am - 3:30pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Mathematics",
+    "campus": "Edinburg",
+    "tutorName": "Francisco Nunez",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "10:30am - 3:30pm",
+      "Wednesday": "10:30am - 3:30pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Reading Comprehension",
+    "campus": "Edinburg",
+    "tutorName": "Francisco Nunez",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "10:30am - 3:30pm",
+      "Wednesday": "10:30am - 3:30pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Vocabulary",
+    "campus": "Edinburg",
+    "tutorName": "Francisco Nunez",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "10:30am - 3:30pm",
+      "Wednesday": "10:30am - 3:30pm",
+      "Thursday": "OFF",
       "Friday": "CLOSED"
     }
   },
@@ -1141,9 +1268,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1201,9 +1328,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1216,9 +1343,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1259,9 +1386,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1358,9 +1485,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1386,9 +1513,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1498,9 +1625,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1565,9 +1692,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1952,9 +2079,9 @@ const TUTOR_SCHEDULE_DATA =
     "tutorName": "Daniel Aguirre",
     "days": {
       "Monday": "OFF",
-      "Tuesday": "12:00pm - 3:30pm",
-      "Wednesday": "12:30pm - 3:30pm",
-      "Thursday": "12:00pm - 3:30pm",
+      "Tuesday": "11:00am - 3:30pm",
+      "Wednesday": "11:30am - 3:30pm",
+      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
