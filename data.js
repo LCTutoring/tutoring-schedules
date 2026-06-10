@@ -923,6 +923,21 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
+  // ---- QUMT 2341 ----
+  {
+    "courseCode": "QUMT 2341",
+    "courseName": "Business Stats I",
+    "campus": "Edinburg",
+    "tutorName": "Alexis Aguilar",
+    "days": {
+      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Thursday": "12:00pm - 1:00pm",
+      "Friday": "CLOSED"
+    }
+  },
+
   // ---- QUMT 3341 ----
   {
     "courseCode": "QUMT 3341",
