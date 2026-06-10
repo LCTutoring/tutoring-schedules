@@ -500,6 +500,19 @@ const TUTOR_SCHEDULE_DATA =
   // ---- HESI Prep ----
   {
     "courseCode": "HESI Prep",
+    "courseName": "Anatomy & Physiology",
+    "campus": "Edinburg",
+    "tutorName": "Francisco Nunez",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "10:30am - 3:30pm",
+      "Wednesday": "10:30am - 3:30pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
     "courseName": "Critical Thinking",
     "campus": "Edinburg",
     "tutorName": "Francisco Nunez",
@@ -839,9 +852,9 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- Nursing ----
+  // ---- NURSING ----
   {
-    "courseCode": "Nursing",
+    "courseCode": "NURSING",
     "courseName": "1st Semester",
     "campus": "Edinburg",
     "tutorName": "Francisco Nunez",
@@ -854,7 +867,7 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
   {
-    "courseCode": "Nursing",
+    "courseCode": "NURSING",
     "courseName": "2nd Semester",
     "campus": "Edinburg",
     "tutorName": "Francisco Nunez",
@@ -867,7 +880,7 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
   {
-    "courseCode": "Nursing",
+    "courseCode": "NURSING",
     "courseName": "3rd Semester",
     "campus": "Edinburg",
     "tutorName": "Francisco Nunez",
@@ -2015,9 +2028,9 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- Nursing ----
+  // ---- NURSING ----
   {
-    "courseCode": "Nursing",
+    "courseCode": "NURSING",
     "courseName": "1st Semester",
     "campus": "Brownsville",
     "tutorName": "Samira Almaguer (Lead Tutor)",
@@ -2030,7 +2043,7 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
   {
-    "courseCode": "Nursing",
+    "courseCode": "NURSING",
     "courseName": "2nd Semester",
     "campus": "Brownsville",
     "tutorName": "Samira Almaguer (Lead Tutor)",
@@ -2043,7 +2056,7 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
   {
-    "courseCode": "Nursing",
+    "courseCode": "NURSING",
     "courseName": "3rd Semester",
     "campus": "Brownsville",
     "tutorName": "Samira Almaguer (Lead Tutor)",
@@ -2216,6 +2229,32 @@ const TUTOR_SCHEDULE_DATA =
       "Tuesday": "9:00am - 2:00pm",
       "Wednesday": "OFF",
       "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Anatomy & Physiology",
+    "campus": "Brownsville",
+    "tutorName": "Ximena Navarro",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "9:45am - 1:00pm",
+      "Wednesday": "9:45am - 3:30pm",
+      "Thursday": "12:00pm - 1:00pm & 4:30pm - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "HESI Prep",
+    "courseName": "Mathematics",
+    "campus": "Brownsville",
+    "tutorName": "Ximena Navarro",
+    "days": {
+      "Monday": "OFF",
+      "Tuesday": "9:45am - 1:00pm",
+      "Wednesday": "9:45am - 3:30pm",
+      "Thursday": "12:00pm - 1:00pm & 4:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   }
