@@ -336,10 +336,10 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- CHEM 1311/1111 ----
+  // ---- CHEM 1111 ----
   {
-    "courseCode": "CHEM 1311/1111",
-    "courseName": "General Chemistry I/Lab",
+    "courseCode": "CHEM 1111",
+    "courseName": "General Chemistry I Lab",
     "campus": "Edinburg",
     "tutorName": "Jorge Gonzalez",
     "days": {
@@ -351,8 +351,8 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
   {
-    "courseCode": "CHEM 1311/1111",
-    "courseName": "General Chemistry I/Lab",
+    "courseCode": "CHEM 1111",
+    "courseName": "General Chemistry I Lab",
     "campus": "Edinburg",
     "tutorName": "Srinidhi Sompalli",
     "days": {
@@ -364,10 +364,10 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- CHEM 1312/1112 ----
+  // ---- CHEM 1112 ----
   {
-    "courseCode": "CHEM 1312/1112",
-    "courseName": "General Chemistry II/Lab",
+    "courseCode": "CHEM 1112",
+    "courseName": "General Chemistry II Lab",
     "campus": "Edinburg",
     "tutorName": "Jorge Gonzalez",
     "days": {
@@ -379,8 +379,8 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
   {
-    "courseCode": "CHEM 1312/1112",
-    "courseName": "General Chemistry II/Lab",
+    "courseCode": "CHEM 1112",
+    "courseName": "General Chemistry II Lab",
     "campus": "Edinburg",
     "tutorName": "Srinidhi Sompalli",
     "days": {
@@ -392,10 +392,23 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- CHEM 2323/2123 ----
+  // ---- CHEM 1311 (Edinburg) ----
   {
-    "courseCode": "CHEM 2323/2123",
-    "courseName": "Organic Chemistry I/Lab",
+    "courseCode": "CHEM 1311",
+    "courseName": "General Chemistry I",
+    "campus": "Edinburg",
+    "tutorName": "Jorge Gonzalez",
+    "days": {
+      "Monday": "9:00am - 12:00pm",
+      "Tuesday": "9:00am - 12:00pm",
+      "Wednesday": "9:00am - 12:00pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "CHEM 1311",
+    "courseName": "General Chemistry I",
     "campus": "Edinburg",
     "tutorName": "Srinidhi Sompalli",
     "days": {
@@ -403,6 +416,120 @@ const TUTOR_SCHEDULE_DATA =
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
       "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- CHEM 1312 ----
+  {
+    "courseCode": "CHEM 1312",
+    "courseName": "General Chemistry II",
+    "campus": "Edinburg",
+    "tutorName": "Jorge Gonzalez",
+    "days": {
+      "Monday": "9:00am - 12:00pm",
+      "Tuesday": "9:00am - 12:00pm",
+      "Wednesday": "9:00am - 12:00pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "CHEM 1312",
+    "courseName": "General Chemistry II",
+    "campus": "Edinburg",
+    "tutorName": "Srinidhi Sompalli",
+    "days": {
+      "Monday": "12:00pm - 3:00pm",
+      "Tuesday": "10:00am - 1:00pm",
+      "Wednesday": "10:00am - 1:00pm",
+      "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- CHEM 2123 ----
+  {
+    "courseCode": "CHEM 2123",
+    "courseName": "Organic Chemistry I Lab",
+    "campus": "Edinburg",
+    "tutorName": "Jorge Gonzalez",
+    "days": {
+      "Monday": "9:00am - 12:00pm",
+      "Tuesday": "9:00am - 12:00pm",
+      "Wednesday": "9:00am - 12:00pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "CHEM 2123",
+    "courseName": "Organic Chemistry I Lab",
+    "campus": "Edinburg",
+    "tutorName": "Srinidhi Sompalli",
+    "days": {
+      "Monday": "12:00pm - 3:00pm",
+      "Tuesday": "10:00am - 1:00pm",
+      "Wednesday": "10:00am - 1:00pm",
+      "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- CHEM 2125 ----
+  {
+    "courseCode": "CHEM 2125",
+    "courseName": "Organic Chemistry II Lab",
+    "campus": "Edinburg",
+    "tutorName": "Jorge Gonzalez",
+    "days": {
+      "Monday": "9:00am - 12:00pm",
+      "Tuesday": "9:00am - 12:00pm",
+      "Wednesday": "9:00am - 12:00pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- CHEM 2323 ----
+  {
+    "courseCode": "CHEM 2323",
+    "courseName": "Organic Chemistry I",
+    "campus": "Edinburg",
+    "tutorName": "Jorge Gonzalez",
+    "days": {
+      "Monday": "9:00am - 12:00pm",
+      "Tuesday": "9:00am - 12:00pm",
+      "Wednesday": "9:00am - 12:00pm",
+      "Thursday": "OFF",
+      "Friday": "CLOSED"
+    }
+  },
+  {
+    "courseCode": "CHEM 2323",
+    "courseName": "Organic Chemistry I",
+    "campus": "Edinburg",
+    "tutorName": "Srinidhi Sompalli",
+    "days": {
+      "Monday": "12:00pm - 3:00pm",
+      "Tuesday": "10:00am - 1:00pm",
+      "Wednesday": "10:00am - 1:00pm",
+      "Thursday": "11:30am - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- CHEM 2325 ----
+  {
+    "courseCode": "CHEM 2325",
+    "courseName": "Organic Chemistry II",
+    "campus": "Edinburg",
+    "tutorName": "Jorge Gonzalez",
+    "days": {
+      "Monday": "9:00am - 12:00pm",
+      "Tuesday": "9:00am - 12:00pm",
+      "Wednesday": "9:00am - 12:00pm",
+      "Thursday": "OFF",
       "Friday": "CLOSED"
     }
   },
@@ -482,10 +609,25 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- EECE 2306/2106 ----
+  // ---- EECE 2306 ----
   {
-    "courseCode": "EECE 2306/2106",
-    "courseName": "Digital Systems Engineering I/Lab",
+    "courseCode": "EECE 2306",
+    "courseName": "Digital Systems Engineering I",
+    "campus": "Edinburg",
+    "tutorName": "Angelina Anthony",
+    "days": {
+      "Monday": "9:30am - 12:45pm",
+      "Tuesday": "9:30am - 3:30pm",
+      "Wednesday": "9:30am - 3:30pm",
+      "Thursday": "3:00pm - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- EECE 2106 ----
+  {
+    "courseCode": "EECE 2106",
+    "courseName": "Digital Systems Engineering I Lab",
     "campus": "Edinburg",
     "tutorName": "Angelina Anthony",
     "days": {
@@ -821,11 +963,24 @@ const TUTOR_SCHEDULE_DATA =
       "Friday": "CLOSED"
     }
   },
-
-  // ---- MECE 2340/2140 ----
   {
-    "courseCode": "MECE 2340/2140",
-    "courseName": "Engineering Materials/Lab",
+    "courseCode": "MECE 2340",
+    "courseName": "Engineering Materials",
+    "campus": "Edinburg",
+    "tutorName": "Angelina Anthony",
+    "days": {
+      "Monday": "9:30am - 12:45pm",
+      "Tuesday": "9:30am - 3:30pm",
+      "Wednesday": "9:30am - 3:30pm",
+      "Thursday": "3:00pm - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- MECE 2140 ----
+  {
+    "courseCode": "MECE 2140",
+    "courseName": "Engineering Materials Lab",
     "campus": "Edinburg",
     "tutorName": "Angelina Anthony",
     "days": {
@@ -919,6 +1074,21 @@ const TUTOR_SCHEDULE_DATA =
       "Tuesday": "12:30pm - 3:15pm",
       "Wednesday": "12:30pm - 3:15pm",
       "Thursday": "1:00pm - 3:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
+  // ---- QUMT 2341 ----
+  {
+    "courseCode": "QUMT 2341",
+    "courseName": "Business Stats I",
+    "campus": "Edinburg",
+    "tutorName": "Alexis Aguilar",
+    "days": {
+      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -1175,7 +1345,7 @@ const TUTOR_SCHEDULE_DATA =
   // ---- CHEM 1311 ----
   {
     "courseCode": "CHEM 1311",
-    "courseName": "General Chemisty I",
+    "courseName": "General Chemistry I",
     "campus": "Brownsville",
     "tutorName": "Joel Almaguer",
     "days": {
@@ -1188,7 +1358,7 @@ const TUTOR_SCHEDULE_DATA =
   },
   {
     "courseCode": "CHEM 1311",
-    "courseName": "General Chemisty I",
+    "courseName": "General Chemistry I",
     "campus": "Brownsville",
     "tutorName": "Kevin Torres-Vega",
     "days": {
@@ -1201,7 +1371,7 @@ const TUTOR_SCHEDULE_DATA =
   },
   {
     "courseCode": "CHEM 1311",
-    "courseName": "General Chemisty I",
+    "courseName": "General Chemistry I",
     "campus": "Brownsville",
     "tutorName": "Ximena Navarro",
     "days": {
