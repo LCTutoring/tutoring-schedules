@@ -200,7 +200,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -215,7 +215,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -243,7 +243,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -271,7 +271,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -286,7 +286,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -301,7 +301,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -359,7 +359,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -387,7 +387,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -415,7 +415,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -443,7 +443,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -471,7 +471,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -514,7 +514,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -544,7 +544,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -559,7 +559,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -755,7 +755,7 @@ const TUTOR_SCHEDULE_DATA =
       "Monday": "12:00pm - 3:00pm",
       "Tuesday": "10:00am - 1:00pm",
       "Wednesday": "10:00am - 1:00pm",
-      "Thursday": "11:30am - 6:30pm",
+      "Thursday": "12:30pm - 6:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -1074,21 +1074,6 @@ const TUTOR_SCHEDULE_DATA =
       "Tuesday": "12:30pm - 3:15pm",
       "Wednesday": "12:30pm - 3:15pm",
       "Thursday": "1:00pm - 3:30pm",
-      "Friday": "CLOSED"
-    }
-  },
-
-  // ---- QUMT 2341 ----
-  {
-    "courseCode": "QUMT 2341",
-    "courseName": "Business Stats I",
-    "campus": "Edinburg",
-    "tutorName": "Alexis Aguilar",
-    "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
   },
@@ -2212,8 +2197,6 @@ const TUTOR_SCHEDULE_DATA =
       "Friday": "CLOSED"
     }
   },
-
-  // ---- NURSING ----
   {
     "courseCode": "NURSING",
     "courseName": "1st Semester",
