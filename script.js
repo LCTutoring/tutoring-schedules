@@ -20,9 +20,11 @@
    ========================= */
 const courseSearchInput = document.getElementById("course-search-input");
 const daySearchInput = document.getElementById("day-search-input");
+const tutorSearchInput = document.getElementById("tutor-search-input");
 
 const courseSuggestionsBox = document.getElementById("course-suggestions");
 const daySuggestionsBox = document.getElementById("day-suggestions");
+const tutorSuggestionsBox = document.getElementById("tutor-suggestions");
 
 const emptyStateSection = document.getElementById("empty-state");
 const resultsArea = document.getElementById("results-area");
@@ -32,6 +34,7 @@ const resultsArea = document.getElementById("results-area");
    ========================= */
 const uniqueCourses = getUniqueCourses(TUTOR_SCHEDULE_DATA);
 const availableDays = AVAILABLE_DAYS.slice();
+const uniqueTutors = getUniqueTutors(TUTOR_SCHEDULE_DATA);
 
 /*
   These variables store the current chosen filters.
@@ -40,6 +43,7 @@ const availableDays = AVAILABLE_DAYS.slice();
 */
 let selectedCourseFilter = null;
 let selectedDayFilter = null;
+let selectedTutorFilter = null;
 let selectedCampusFilter = "all"; // "all", "Edinburg", or "Brownsville"
 
 /* =========================
@@ -48,6 +52,22 @@ let selectedCampusFilter = "all"; // "all", "Edinburg", or "Brownsville"
 
 function normalizeText(text) {
   return String(text || "").trim().toLowerCase();
+}
+
+function getUniqueTutors(scheduleData) {
+  const seen = new Set();
+  const tutors = [];
+
+  scheduleData.forEach(function (entry) {
+    if (!seen.has(entry.tutorName)) {
+      seen.add(entry.tutorName);
+      tutors.push(entry.tutorName);
+    }
+  });
+
+  return tutors.sort(function (a, b) {
+    return a.localeCompare(b);
+  });
 }
 
 function getUniqueCourses(scheduleData) {
@@ -72,9 +92,11 @@ function getUniqueCourses(scheduleData) {
 function closeAllSuggestionBoxes() {
   courseSuggestionsBox.classList.remove("open");
   daySuggestionsBox.classList.remove("open");
+  tutorSuggestionsBox.classList.remove("open");
 
   courseSearchInput.setAttribute("aria-expanded", "false");
   daySearchInput.setAttribute("aria-expanded", "false");
+  tutorSearchInput.setAttribute("aria-expanded", "false");
 }
 
 function showEmptyState() {
@@ -133,6 +155,18 @@ function findExactDayMatch(searchText) {
 
   return availableDays.find(function (dayName) {
     return normalizeText(dayName) === normalizedSearch;
+  }) || null;
+}
+
+function findExactTutorMatch(searchText) {
+  const normalizedSearch = normalizeText(searchText);
+
+  if (!normalizedSearch) {
+    return null;
+  }
+
+  return uniqueTutors.find(function (tutorName) {
+    return normalizeText(tutorName) === normalizedSearch;
   }) || null;
 }
 
@@ -243,9 +277,10 @@ function renderResultsFromCurrentFilters() {
 
   const hasCourseFilter = Boolean(selectedCourseFilter);
   const hasDayFilter = Boolean(selectedDayFilter);
+  const hasTutorFilter = Boolean(selectedTutorFilter);
   const hasCampusFilter = selectedCampusFilter !== "all";
 
-  if (!hasCourseFilter && !hasDayFilter && !hasCampusFilter) {
+  if (!hasCourseFilter && !hasDayFilter && !hasTutorFilter && !hasCampusFilter) {
     showEmptyState();
     return;
   }
@@ -278,6 +313,13 @@ function renderResultsFromCurrentFilters() {
     });
   }
 
+  /* ---- Tutor filter ---- */
+  if (hasTutorFilter) {
+    matchingEntries = matchingEntries.filter(function (entry) {
+      return entry.tutorName === selectedTutorFilter;
+    });
+  }
+
   matchingEntries.sort(function (a, b) {
     const courseCompare = a.courseCode.localeCompare(b.courseCode);
     if (courseCompare !== 0) {
@@ -289,6 +331,7 @@ function renderResultsFromCurrentFilters() {
   if (matchingEntries.length === 0) {
     const titleParts = [];
     if (hasCampusFilter) titleParts.push(selectedCampusFilter);
+    if (hasTutorFilter)  titleParts.push(selectedTutorFilter);
     if (hasCourseFilter) titleParts.push(selectedCourseFilter.courseCode);
     if (hasDayFilter)    titleParts.push(selectedDayFilter);
 
@@ -303,6 +346,7 @@ function renderResultsFromCurrentFilters() {
   /* ---- Build header title ---- */
   const titleParts = [];
   if (hasCampusFilter) titleParts.push(selectedCampusFilter);
+  if (hasTutorFilter)  titleParts.push(selectedTutorFilter);
   if (hasCourseFilter) titleParts.push(`${selectedCourseFilter.courseCode} - ${selectedCourseFilter.courseName}`);
   if (hasDayFilter)    titleParts.push(selectedDayFilter);
 
@@ -311,7 +355,11 @@ function renderResultsFromCurrentFilters() {
     : "Filtered Schedule Results";
 
   let helperText = "Showing tutors that match the current search filters.";
-  if (hasCampusFilter && !hasCourseFilter && !hasDayFilter) {
+  if (hasTutorFilter && !hasCourseFilter && !hasDayFilter) {
+    helperText = `Showing all courses and schedule for ${selectedTutorFilter}.`;
+  } else if (hasTutorFilter && hasDayFilter) {
+    helperText = `Showing courses ${selectedTutorFilter} is available for on ${selectedDayFilter}.`;
+  } else if (hasCampusFilter && !hasCourseFilter && !hasDayFilter && !hasTutorFilter) {
     helperText = `Showing all tutors at the ${selectedCampusFilter} campus.`;
   } else if (hasCourseFilter && hasDayFilter) {
     helperText = "Showing tutors for the selected course on the selected day.";
@@ -457,6 +505,46 @@ function renderDaySuggestions(searchText) {
   });
 }
 
+function renderTutorSuggestions(searchText) {
+  const normalizedSearch = normalizeText(searchText);
+
+  const matchingTutors = uniqueTutors.filter(function (tutorName) {
+    return normalizeText(tutorName).includes(normalizedSearch);
+  }).slice(0, 12);
+
+  if (matchingTutors.length === 0 || normalizedSearch === "") {
+    tutorSuggestionsBox.innerHTML = "";
+    tutorSuggestionsBox.classList.remove("open");
+    tutorSearchInput.setAttribute("aria-expanded", "false");
+    return;
+  }
+
+  tutorSuggestionsBox.innerHTML = matchingTutors.map(function (tutorName, index) {
+    return `
+      <div
+        class="suggestion-item"
+        role="option"
+        aria-selected="${index === 0 ? "true" : "false"}"
+        data-tutor-name="${escapeHtml(tutorName)}"
+        tabindex="0"
+      >
+        <span class="suggestion-main">${escapeHtml(tutorName)}</span>
+        <span class="suggestion-tag">Tutor</span>
+      </div>
+    `;
+  }).join("");
+
+  tutorSuggestionsBox.classList.add("open");
+  tutorSearchInput.setAttribute("aria-expanded", "true");
+
+  Array.from(tutorSuggestionsBox.querySelectorAll(".suggestion-item")).forEach(function (item) {
+    item.addEventListener("mousedown", function (event) {
+      event.preventDefault();
+      chooseTutorFilter(item.dataset.tutorName);
+    });
+  });
+}
+
 /* =========================
    FILTER SELECTION HELPERS
    ========================= */
@@ -470,6 +558,12 @@ function chooseCourseFilter(course) {
 function chooseDayFilter(dayName) {
   selectedDayFilter = dayName;
   daySearchInput.value = dayName;
+  renderResultsFromCurrentFilters();
+}
+
+function chooseTutorFilter(tutorName) {
+  selectedTutorFilter = tutorName;
+  tutorSearchInput.value = tutorName;
   renderResultsFromCurrentFilters();
 }
 
@@ -501,6 +595,20 @@ function syncDayFilterFromTypedText() {
   }
 }
 
+function syncTutorFilterFromTypedText() {
+  const exactTutorMatch = findExactTutorMatch(tutorSearchInput.value);
+
+  if (exactTutorMatch) {
+    selectedTutorFilter = exactTutorMatch;
+    tutorSearchInput.value = exactTutorMatch;
+    return;
+  }
+
+  if (normalizeText(tutorSearchInput.value) === "") {
+    selectedTutorFilter = null;
+  }
+}
+
 /* =========================
    KEYBOARD SUPPORT
    ========================= */
@@ -516,6 +624,10 @@ function attachKeyboardSupport(inputElement, suggestionBox, onChooseSuggestion) 
 
       if (inputElement === daySearchInput) {
         syncDayFilterFromTypedText();
+      }
+
+      if (inputElement === tutorSearchInput) {
+        syncTutorFilterFromTypedText();
       }
 
       renderResultsFromCurrentFilters();
@@ -602,6 +714,22 @@ daySearchInput.addEventListener("blur", function () {
   }, 150);
 });
 
+tutorSearchInput.addEventListener("input", function () {
+  if (normalizeText(tutorSearchInput.value) === "") {
+    selectedTutorFilter = null;
+    renderResultsFromCurrentFilters();
+  }
+
+  renderTutorSuggestions(tutorSearchInput.value);
+});
+
+tutorSearchInput.addEventListener("blur", function () {
+  setTimeout(function () {
+    syncTutorFilterFromTypedText();
+    renderResultsFromCurrentFilters();
+  }, 150);
+});
+
 attachKeyboardSupport(courseSearchInput, courseSuggestionsBox, function (chosenItem) {
   chooseCourseFilter({
     courseCode: chosenItem.dataset.courseCode,
@@ -613,11 +741,16 @@ attachKeyboardSupport(daySearchInput, daySuggestionsBox, function (chosenItem) {
   chooseDayFilter(chosenItem.dataset.dayName);
 });
 
+attachKeyboardSupport(tutorSearchInput, tutorSuggestionsBox, function (chosenItem) {
+  chooseTutorFilter(chosenItem.dataset.tutorName);
+});
+
 document.addEventListener("click", function (event) {
   const clickedInsideCourseArea = event.target.closest(".search-group") === courseSearchInput.closest(".search-group");
   const clickedInsideDayArea = event.target.closest(".search-group") === daySearchInput.closest(".search-group");
+  const clickedInsideTutorArea = event.target.closest(".search-group") === tutorSearchInput.closest(".search-group");
 
-  if (!clickedInsideCourseArea && !clickedInsideDayArea) {
+  if (!clickedInsideCourseArea && !clickedInsideDayArea && !clickedInsideTutorArea) {
     closeAllSuggestionBoxes();
   }
 });

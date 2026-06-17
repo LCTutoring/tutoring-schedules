@@ -28,7 +28,7 @@
         <div class="brand-badge" aria-hidden="true">UTRGV</div>
         <div>
           <h1>Tutor Schedule Finder</h1>
-          <p class="subtitle">UTRGV Learning Center   ·   Search by course, by day, or both</p>
+          <p class="subtitle">UTRGV Learning Center   ·   Search by course, by day, by tutor, or any combination</p>
         </div>
       </div>
 
@@ -78,6 +78,30 @@
             class="suggestions"
             role="listbox"
             aria-label="Day suggestions"
+          ></div>
+        </div>
+
+        <!-- SEARCH BOX 3: TUTOR -->
+        <div class="search-group">
+          <label for="tutor-search-input">Search by Tutor</label>
+          <input
+            id="tutor-search-input"
+            type="search"
+            placeholder="Example: Alexis, Eduardo, Francisco"
+            autocomplete="off"
+            aria-describedby="tutor-help"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="tutor-suggestions"
+          >
+          <p id="tutor-help" class="help-text">
+            Type a tutor's name to see all the courses they cover and their schedule.
+          </p>
+          <div
+            id="tutor-suggestions"
+            class="suggestions"
+            role="listbox"
+            aria-label="Tutor suggestions"
           ></div>
         </div>
       </div>
