@@ -609,6 +609,21 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
+  // ---- EECE 2305 ----
+  {
+    "courseCode": "EECE 2305",
+    "courseName": "Electric Circuits I",
+    "campus": "Edinburg",
+    "tutorName": "Angelina Anthony",
+    "days": {
+      "Monday": "9:30am - 12:45pm",
+      "Tuesday": "9:30am - 3:30pm",
+      "Wednesday": "9:30am - 3:30pm",
+      "Thursday": "3:00pm - 6:30pm",
+      "Friday": "CLOSED"
+    }
+  },
+
   // ---- EECE 2306 ----
   {
     "courseCode": "EECE 2306",
@@ -1506,7 +1521,7 @@ const TUTOR_SCHEDULE_DATA =
   // ---- EECE 2305 ----
   {
     "courseCode": "EECE 2305",
-    "courseName": "Electric Circuits",
+    "courseName": "Electric Circuits I",
     "campus": "Brownsville",
     "tutorName": "Daniel Aguirre",
     "days": {
