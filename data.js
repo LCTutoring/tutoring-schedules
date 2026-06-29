@@ -36,9 +36,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -64,9 +64,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -586,9 +586,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -601,9 +601,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -797,9 +797,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -812,9 +812,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -1100,9 +1100,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -1115,9 +1115,9 @@ const TUTOR_SCHEDULE_DATA =
     "campus": "Edinburg",
     "tutorName": "Alexis Aguilar",
     "days": {
-      "Monday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Tuesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
-      "Wednesday": "9:15am - 12:15pm & 12:45pm - 3:30pm",
+      "Monday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Tuesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
+      "Wednesday": "9:00am - 12:15pm & 12:45pm - 3:30pm",
       "Thursday": "12:00pm - 1:00pm",
       "Friday": "CLOSED"
     }
@@ -1458,21 +1458,6 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- CSCI 4334 ----
-  {
-    "courseCode": "CSCI 4334",
-    "courseName": "Operating Systems",
-    "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
-      "Friday": "CLOSED"
-    }
-  },
-
   // ---- ECON 2301 ----
   {
     "courseCode": "ECON 2301",
@@ -1518,35 +1503,7 @@ const TUTOR_SCHEDULE_DATA =
     }
   },
 
-  // ---- EECE 2305 ----
-  {
-    "courseCode": "EECE 2305",
-    "courseName": "Electric Circuits I",
-    "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
-      "Friday": "CLOSED"
-    }
-  },
-
   // ---- EECE 2306 ----
-  {
-    "courseCode": "EECE 2306",
-    "courseName": "Digital Systems Engineering I",
-    "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
-      "Friday": "CLOSED"
-    }
-  },
   {
     "courseCode": "EECE 2306",
     "courseName": "Digital Systems Engineering I",
@@ -1577,19 +1534,6 @@ const TUTOR_SCHEDULE_DATA =
   },
 
   // ---- EECE 3435 ----
-  {
-    "courseCode": "EECE 3435",
-    "courseName": "Microprocessor Systems",
-    "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
-      "Friday": "CLOSED"
-    }
-  },
   {
     "courseCode": "EECE 3435",
     "courseName": "Microprocessor Systems",
@@ -1680,19 +1624,6 @@ const TUTOR_SCHEDULE_DATA =
     "courseCode": "MATH 1314, 1414",
     "courseName": "College Algebra",
     "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
-      "Friday": "CLOSED"
-    }
-  },
-  {
-    "courseCode": "MATH 1314, 1414",
-    "courseName": "College Algebra",
-    "campus": "Brownsville",
     "tutorName": "Kevin Torres-Vega",
     "days": {
       "Monday": "11:30am - 3:30pm",
@@ -1704,19 +1635,6 @@ const TUTOR_SCHEDULE_DATA =
   },
 
   // ---- MATH 1324 ----
-  {
-    "courseCode": "MATH 1324",
-    "courseName": "Math for Business",
-    "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
-      "Friday": "CLOSED"
-    }
-  },
   {
     "courseCode": "MATH 1324",
     "courseName": "Math for Business",
@@ -1820,19 +1738,6 @@ const TUTOR_SCHEDULE_DATA =
     "courseCode": "MATH 2412",
     "courseName": "Precalculus",
     "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
-      "Friday": "CLOSED"
-    }
-  },
-  {
-    "courseCode": "MATH 2412",
-    "courseName": "Precalculus",
-    "campus": "Brownsville",
     "tutorName": "Joel Almaguer",
     "days": {
       "Monday": "9:00am - 3:00pm",
@@ -1880,19 +1785,6 @@ const TUTOR_SCHEDULE_DATA =
       "Tuesday": "9:00am - 11:15pm",
       "Wednesday": "9:00am - 12:45pm",
       "Thursday": "3:15pm - 6:30pm",
-      "Friday": "CLOSED"
-    }
-  },
-  {
-    "courseCode": "MATH 2413",
-    "courseName": "Calculus I",
-    "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
@@ -2263,21 +2155,6 @@ const TUTOR_SCHEDULE_DATA =
       "Tuesday": "OFF",
       "Wednesday": "11:30am - 3:30pm",
       "Thursday": "1:30pm - 6:30pm",
-      "Friday": "CLOSED"
-    }
-  },
-
-  // ---- PHYS 2425 ----
-  {
-    "courseCode": "PHYS 2425",
-    "courseName": "Physics for Sci & Engr I",
-    "campus": "Brownsville",
-    "tutorName": "Daniel Aguirre",
-    "days": {
-      "Monday": "OFF",
-      "Tuesday": "11:00am - 3:30pm",
-      "Wednesday": "11:30am - 3:30pm",
-      "Thursday": "12:00pm - 4:30pm",
       "Friday": "CLOSED"
     }
   },
