@@ -26,14 +26,14 @@ const TUTOR_SCHEDULE_DATA =
 [
 
   // ============================================================
-  // BROWNSVILLE CAMPUS
+  // BROWNSVILLE (BMSLC 2.107) CAMPUS
   // ============================================================
 
   // ---- ACCT 2301 ----
   {
       "courseCode": "ACCT 2301",
       "courseName": "Intro to Financial Accounting",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Marisa Padron",
       "days": {
           "Monday": "9:00AM - 12:00PM",
@@ -46,7 +46,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ACCT 2301",
       "courseName": "Intro to Financial Accounting",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "2:00PM - 5:00PM",
@@ -61,7 +61,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ACCT 2302",
       "courseName": "Intro to Managerial Accounting",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Marisa Padron",
       "days": {
           "Monday": "9:00AM - 12:00PM",
@@ -74,7 +74,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ACCT 2302",
       "courseName": "Intro to Managerial Accounting",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "2:00PM - 5:00PM",
@@ -89,7 +89,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 1310",
       "courseName": "ASLI I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Luz Anabel Martinez",
       "days": {
           "Monday": "12:00PM - 5:00PM",
@@ -104,7 +104,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 1320",
       "courseName": "ASLI II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Luz Anabel Martinez",
       "days": {
           "Monday": "12:00PM - 5:00PM",
@@ -119,7 +119,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 2310",
       "courseName": "ASLI III",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Luz Anabel Martinez",
       "days": {
           "Monday": "12:00PM - 5:00PM",
@@ -134,7 +134,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3310",
       "courseName": "ASLI IV",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Luz Anabel Martinez",
       "days": {
           "Monday": "12:00PM - 5:00PM",
@@ -149,7 +149,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3320",
       "courseName": "ASLI V",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Luz Anabel Martinez",
       "days": {
           "Monday": "12:00PM - 5:00PM",
@@ -164,7 +164,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3324",
       "courseName": "ASL Fingerspelling & Numbers",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Luz Anabel Martinez",
       "days": {
           "Monday": "12:00PM - 5:00PM",
@@ -179,7 +179,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3340",
       "courseName": "Intro to Classifiers",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Luz Anabel Martinez",
       "days": {
           "Monday": "12:00PM - 5:00PM",
@@ -194,7 +194,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASTR 1401",
       "courseName": "Intro to Astronomy I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ulises Jarquin",
       "days": {
           "Monday": "CLOSED",
@@ -209,7 +209,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1406",
       "courseName": "General Biology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Joel Almaguer",
       "days": {
           "Monday": "1:00PM - 5:00PM",
@@ -222,7 +222,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1406",
       "courseName": "General Biology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -235,7 +235,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1406",
       "courseName": "General Biology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kassandra Melendez",
       "days": {
           "Monday": "9:00AM - 2:00PM",
@@ -248,7 +248,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1406",
       "courseName": "General Biology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Sofia Munoz",
       "days": {
           "Monday": "9:30AM - 10:30AM & 2:30PM - 4:30PM",
@@ -263,7 +263,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1407",
       "courseName": "General Biology II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Joel Almaguer",
       "days": {
           "Monday": "1:00PM - 5:00PM",
@@ -276,7 +276,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1407",
       "courseName": "General Biology II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -289,7 +289,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1407",
       "courseName": "General Biology II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kassandra Melendez",
       "days": {
           "Monday": "9:00AM - 2:00PM",
@@ -304,7 +304,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Joel Almaguer",
       "days": {
           "Monday": "1:00PM - 5:00PM",
@@ -317,7 +317,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -330,7 +330,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ximena Navarro",
       "days": {
           "Monday": "11:45AM - 12:45PM",
@@ -343,7 +343,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kassandra Melendez",
       "days": {
           "Monday": "9:00AM - 2:00PM",
@@ -356,7 +356,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Sofia Munoz",
       "days": {
           "Monday": "9:30AM - 10:30AM & 2:30PM - 4:30PM",
@@ -371,7 +371,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2402",
       "courseName": "Anatomy & Physiology II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -384,7 +384,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2402",
       "courseName": "Anatomy & Physiology II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ximena Navarro",
       "days": {
           "Monday": "11:45AM - 12:45PM",
@@ -399,7 +399,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3401",
       "courseName": "General Microbiology",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Sofia Munoz",
       "days": {
           "Monday": "9:30AM - 10:30AM & 2:30PM - 4:30PM",
@@ -414,7 +414,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1301",
       "courseName": "Intro to Biomedical Sciences I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -429,7 +429,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1302",
       "courseName": "Intro to Biomedical Sciences II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -444,7 +444,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2301",
       "courseName": "Integrated Body Systems I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -459,7 +459,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2302",
       "courseName": "Integrated Body Systems II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -474,7 +474,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1109",
       "courseName": "Chemistry for Engineers Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Samuel Jarquin",
       "days": {
           "Monday": "9:00AM - 1:30AM",
@@ -487,7 +487,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1109",
       "courseName": "Chemistry for Engineers Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -502,7 +502,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -515,7 +515,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -530,7 +530,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -545,7 +545,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1309",
       "courseName": "Chemistry for Engineers",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -558,7 +558,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1309",
       "courseName": "Chemistry for Engineers",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Samuel Jarquin",
       "days": {
           "Monday": "9:00AM - 1:30AM",
@@ -573,7 +573,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Joel Almaguer",
       "days": {
           "Monday": "1:00PM - 5:00PM",
@@ -586,7 +586,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -599,7 +599,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ximena Navarro",
       "days": {
           "Monday": "11:45AM - 12:45PM",
@@ -612,7 +612,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Sofia Munoz",
       "days": {
           "Monday": "9:30AM - 10:30AM & 2:30PM - 4:30PM",
@@ -625,7 +625,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -640,7 +640,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -655,7 +655,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kassandra Melendez",
       "days": {
           "Monday": "9:00AM - 2:00PM",
@@ -668,7 +668,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -683,7 +683,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2125",
       "courseName": "Organic Chemistry II Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -698,7 +698,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Joel Almaguer",
       "days": {
           "Monday": "1:00PM - 5:00PM",
@@ -711,7 +711,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kassandra Melendez",
       "days": {
           "Monday": "9:00AM - 2:00PM",
@@ -726,7 +726,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CLSC 2429",
       "courseName": "Clinical Micro in Health Care",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ximena Navarro",
       "days": {
           "Monday": "11:45AM - 12:45PM",
@@ -741,7 +741,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 1101",
       "courseName": "Intro to Computer Science",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -756,7 +756,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 1470",
       "courseName": "Computer Science I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -771,7 +771,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 2333",
       "courseName": "Computer Org & Assembly Lang",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -786,7 +786,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 2380",
       "courseName": "Computer Science II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -801,7 +801,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 3310",
       "courseName": "Mathematical Foundation on CS",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -816,7 +816,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 3326",
       "courseName": "Obj Orientated Prog in JAVA",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -831,7 +831,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 3333",
       "courseName": "Algorithms & Data Structures",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -846,7 +846,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 4325",
       "courseName": "Automata, Formal Languages, and Comp",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -861,7 +861,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 4333",
       "courseName": "Database Design & Implement",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -876,7 +876,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 4334",
       "courseName": "Operating Systems",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -891,7 +891,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 4345",
       "courseName": "Computer Network",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -906,7 +906,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ECON 2301",
       "courseName": "Principles of Macroeconomics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jesus Munoz",
       "days": {
           "Monday": "CLOSED",
@@ -921,7 +921,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ECON 2302",
       "courseName": "Principles of Microeconomics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jesus Munoz",
       "days": {
           "Monday": "CLOSED",
@@ -936,7 +936,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 1101",
       "courseName": "Intro to Elec & Comp Engineering",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -951,7 +951,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2106",
       "courseName": "Digital Systems I Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -964,7 +964,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2106",
       "courseName": "Digital Systems I Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -979,7 +979,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2305",
       "courseName": "Electric Circuits I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -992,7 +992,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2305",
       "courseName": "Electric Circuits I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1005,7 +1005,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2305",
       "courseName": "Electric Circuits I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1020,7 +1020,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2306",
       "courseName": "Digital Systems I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1033,7 +1033,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2306",
       "courseName": "Digital Systems I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1046,7 +1046,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2306",
       "courseName": "Digital Systems I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1061,7 +1061,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2319",
       "courseName": "Num Comp & Data Visual",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1076,7 +1076,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 25105",
       "courseName": "Electric Circuits 1 Lab",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1091,7 +1091,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3301",
       "courseName": "Electronics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1106,7 +1106,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3315",
       "courseName": "Electromagntics Engineering",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1121,7 +1121,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3321",
       "courseName": "Signals & Systems",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1134,7 +1134,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3321",
       "courseName": "Signals & Systems",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1149,7 +1149,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3340",
       "courseName": "Probability & Stats for Engineers",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1164,7 +1164,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3435",
       "courseName": "Microprocessor Systems",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1179,7 +1179,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "FINA 3380",
       "courseName": "Intro to Finance",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jesus Munoz",
       "days": {
           "Monday": "CLOSED",
@@ -1194,7 +1194,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Anatomy & Physiology",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -1207,7 +1207,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Critical Thinking",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -1220,7 +1220,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Mathematics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -1233,7 +1233,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Reading Comprehension",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -1246,7 +1246,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Vocabulary",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -1259,7 +1259,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Anatomy & Physiology",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ximena Navarro",
       "days": {
           "Monday": "11:45AM - 12:45PM",
@@ -1272,7 +1272,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Mathematics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ximena Navarro",
       "days": {
           "Monday": "11:45AM - 12:45PM",
@@ -1285,7 +1285,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Anatomy & Physiology",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -1298,7 +1298,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Critical Thinking",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -1311,7 +1311,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Grammar",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -1324,7 +1324,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Mathematics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -1337,7 +1337,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Reading Comprehension",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -1350,7 +1350,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Vocabulary",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -1365,7 +1365,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "INFS 2300",
       "courseName": "Data Modeling Management Tools",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jesus Munoz",
       "days": {
           "Monday": "CLOSED",
@@ -1380,7 +1380,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MARK 3300",
       "courseName": "Principles of Marketing",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jesus Munoz",
       "days": {
           "Monday": "CLOSED",
@@ -1395,7 +1395,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -1408,7 +1408,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Angel Morales",
       "days": {
           "Monday": "10:00AM - 2:30PM",
@@ -1421,7 +1421,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -1434,7 +1434,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulina Olvera Leal",
       "days": {
           "Monday": "9:00AM - 12:15PM & 2:30PM - 4:30PM",
@@ -1447,7 +1447,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Samuel Jarquin",
       "days": {
           "Monday": "9:00AM - 1:30AM",
@@ -1460,7 +1460,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1473,7 +1473,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1486,7 +1486,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ulises Jarquin",
       "days": {
           "Monday": "CLOSED",
@@ -1499,7 +1499,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Sofia Munoz",
       "days": {
           "Monday": "9:30AM - 10:30AM & 2:30PM - 4:30PM",
@@ -1512,7 +1512,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -1527,7 +1527,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1324",
       "courseName": "Math for Business",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jesus Munoz",
       "days": {
           "Monday": "CLOSED",
@@ -1540,7 +1540,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1324",
       "courseName": "Math for Business",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1555,7 +1555,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Joel Almaguer",
       "days": {
           "Monday": "1:00PM - 5:00PM",
@@ -1568,7 +1568,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -1581,7 +1581,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Abigail Montelongo",
       "days": {
           "Monday": "12:15PM - 2:30PM",
@@ -1594,7 +1594,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "2:00PM - 5:00PM",
@@ -1609,7 +1609,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1343",
       "courseName": "Introduction to Biostatistics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Joel Almaguer",
       "days": {
           "Monday": "1:00PM - 5:00PM",
@@ -1624,7 +1624,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2318",
       "courseName": "Linear Algebra",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -1639,7 +1639,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2346",
       "courseName": "Math for EE & CE",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1652,7 +1652,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2346",
       "courseName": "Math for EE & CE",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1667,7 +1667,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -1680,7 +1680,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Angel Morales",
       "days": {
           "Monday": "10:00AM - 2:30PM",
@@ -1693,7 +1693,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1706,7 +1706,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Samuel Jarquin",
       "days": {
           "Monday": "9:00AM - 1:30AM",
@@ -1719,7 +1719,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1732,7 +1732,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1745,7 +1745,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ulises Jarquin",
       "days": {
           "Monday": "CLOSED",
@@ -1760,7 +1760,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -1773,7 +1773,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Angel Morales",
       "days": {
           "Monday": "10:00AM - 2:30PM",
@@ -1786,7 +1786,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1799,7 +1799,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -1812,7 +1812,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -1825,7 +1825,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "CLOSED",
@@ -1840,7 +1840,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2414",
       "courseName": "Calculus II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -1853,7 +1853,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2414",
       "courseName": "Calculus II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Angel Morales",
       "days": {
           "Monday": "10:00AM - 2:30PM",
@@ -1866,7 +1866,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2414",
       "courseName": "Calculus II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1881,7 +1881,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2415",
       "courseName": "Calculus III",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -1894,7 +1894,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2415",
       "courseName": "Calculus III",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Angel Morales",
       "days": {
           "Monday": "10:00AM - 2:30PM",
@@ -1909,7 +1909,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 3341",
       "courseName": "Differential Equations",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -1922,7 +1922,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 3341",
       "courseName": "Differential Equations",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Angel Morales",
       "days": {
           "Monday": "10:00AM - 2:30PM",
@@ -1935,7 +1935,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 3341",
       "courseName": "Differential Equations",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -1950,7 +1950,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1101",
       "courseName": "Intro to Mechanical Engineering",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Samuel Jarquin",
       "days": {
           "Monday": "9:00AM - 1:30AM",
@@ -1965,7 +1965,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1221",
       "courseName": "Engineering Graphics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Samuel Jarquin",
       "days": {
           "Monday": "9:00AM - 1:30AM",
@@ -1978,7 +1978,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1221",
       "courseName": "Engineering Graphics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jorge Camacho",
       "days": {
           "Monday": "CLOSED",
@@ -1993,7 +1993,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3335",
       "courseName": "Thermodynamics I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jorge Camacho",
       "days": {
           "Monday": "CLOSED",
@@ -2008,7 +2008,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3440",
       "courseName": "Mechanical Engineering Anaylsis I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jorge Camacho",
       "days": {
           "Monday": "CLOSED",
@@ -2023,7 +2023,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MGMT 3361",
       "courseName": "Principles of Management",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Jesus Munoz",
       "days": {
           "Monday": "CLOSED",
@@ -2038,7 +2038,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1116",
       "courseName": "SS &ET I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2053,7 +2053,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1117",
       "courseName": "SS &ET II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2068,7 +2068,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1211",
       "courseName": "Music Theory I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2083,7 +2083,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1212",
       "courseName": "Music Theory II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2098,7 +2098,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1301",
       "courseName": "Fundamentals of Music",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2113,7 +2113,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2116",
       "courseName": "SS &ET III",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2128,7 +2128,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2117",
       "courseName": "SS &ET IV",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2143,7 +2143,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2211",
       "courseName": "Music Theory III",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2158,7 +2158,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2212",
       "courseName": "Music Theory IV",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2173,7 +2173,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 3211",
       "courseName": "Form and Analysis",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
           "Monday": "1:00PM - 4:30PM",
@@ -2188,7 +2188,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NURSING",
       "courseName": "1st Semester Nursing",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -2201,7 +2201,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NURSING",
       "courseName": "2nd Semester Nursing",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -2214,7 +2214,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NURSING",
       "courseName": "3rd Semester Nursing",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Camila Hinojosa",
       "days": {
           "Monday": "12:30PM - 5:00PM",
@@ -2227,7 +2227,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NURSING",
       "courseName": "1st Semester Nursing",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ashlyn Ramirez",
       "days": {
           "Monday": "11:30AM - 5:00PM",
@@ -2242,7 +2242,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NUTR 2351",
       "courseName": "Intro to Clinical Nutrition",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ximena Navarro",
       "days": {
           "Monday": "11:45AM - 12:45PM",
@@ -2257,7 +2257,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 1401",
       "courseName": "General Physics I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
           "Monday": "9:00AM - 11:30AM",
@@ -2272,7 +2272,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 2425",
       "courseName": "Physics for Sci & Engr I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -2285,7 +2285,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 2425",
       "courseName": "Physics for Sci & Engr I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Daniel Aguirre",
       "days": {
           "Monday": "9:00AM - 10:30AM",
@@ -2300,7 +2300,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 2426",
       "courseName": "Physics for Sci & Engr II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kenneth Davis",
       "days": {
           "Monday": "10:30AM - 3:30PM",
@@ -2315,7 +2315,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "QUMT 2341",
       "courseName": "Business Stats I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "2:00PM - 5:00PM",
@@ -2330,7 +2330,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "SPAN 3313",
       "courseName": "Adv Grammar & Comp Heritage I",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulina Olvera Leal",
       "days": {
           "Monday": "9:00AM - 12:15PM & 2:30PM - 4:30PM",
@@ -2345,7 +2345,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "SPAN 3315",
       "courseName": "Adv Grammar & Comp Heritage II",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Paulina Olvera Leal",
       "days": {
           "Monday": "9:00AM - 12:15PM & 2:30PM - 4:30PM",
@@ -2360,7 +2360,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "STAT 3337",
       "courseName": "Probability & Statistics",
-      "campus": "Brownsville",
+      "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Alejandra Ramos Arevalo",
       "days": {
           "Monday": "CLOSED",
@@ -2372,33 +2372,33 @@ const TUTOR_SCHEDULE_DATA =
   },
 
   // ============================================================
-  // EDINBURG CAMPUS
+  // EDINBURG (ELCTR 114) CAMPUS
   // ============================================================
 
   // ---- ACCT 2301 ----
   {
       "courseCode": "ACCT 2301",
       "courseName": "Intro to Financial Accounting",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ACCT 2301",
       "courseName": "Intro to Financial Accounting",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "02:00 PM - 05:00 PM",
-          "Wednesday": "03:30 PM - 08:00 PM",
-          "Thursday": "02:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 8:00 PM",
+          "Thursday": "2:00 PM - 5:00 PM",
           "Friday": "CLOSED"
       }
   },
@@ -2407,26 +2407,26 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ACCT 2302",
       "courseName": "Intro to Managerial Accounting",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ACCT 2302",
       "courseName": "Intro to Managerial Accounting",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "02:00 PM - 05:00 PM",
-          "Wednesday": "03:30 PM - 08:00 PM",
-          "Thursday": "02:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 8:00 PM",
+          "Thursday": "2:00 PM - 5:00 PM",
           "Friday": "CLOSED"
       }
   },
@@ -2435,33 +2435,33 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 1310",
       "courseName": "ASLI I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 1310",
       "courseName": "ASLI I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "ASLI 1310",
       "courseName": "ASLI I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Josue Peralta de Jesus",
       "days": {
           "Monday": "11:00 AM - 12:00 PM & 3:30 PM - 4:45 PM",
@@ -2474,7 +2474,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 1310",
       "courseName": "ASLI I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Mario Salinas",
       "days": {
           "Monday": "9:00 AM - 11:45 AM & 2:45 PM - 5:00 PM",
@@ -2489,33 +2489,33 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 1320",
       "courseName": "ASLI II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 1320",
       "courseName": "ASLI II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "ASLI 1320",
       "courseName": "ASLI II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Josue Peralta de Jesus",
       "days": {
           "Monday": "11:00 AM - 12:00 PM & 3:30 PM - 4:45 PM",
@@ -2528,7 +2528,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 1320",
       "courseName": "ASLI II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Mario Salinas",
       "days": {
           "Monday": "9:00 AM - 11:45 AM & 2:45 PM - 5:00 PM",
@@ -2543,33 +2543,33 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 2310",
       "courseName": "ASLI III",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 2310",
       "courseName": "ASLI III",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "ASLI 2310",
       "courseName": "ASLI III",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Josue Peralta de Jesus",
       "days": {
           "Monday": "11:00 AM - 12:00 PM & 3:30 PM - 4:45 PM",
@@ -2582,7 +2582,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 2310",
       "courseName": "ASLI III",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Mario Salinas",
       "days": {
           "Monday": "9:00 AM - 11:45 AM & 2:45 PM - 5:00 PM",
@@ -2597,33 +2597,33 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3310",
       "courseName": "ASLI IV",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 3310",
       "courseName": "ASLI IV",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "ASLI 3310",
       "courseName": "ASLI IV",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Josue Peralta de Jesus",
       "days": {
           "Monday": "11:00 AM - 12:00 PM & 3:30 PM - 4:45 PM",
@@ -2636,7 +2636,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3310",
       "courseName": "ASLI IV",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Mario Salinas",
       "days": {
           "Monday": "9:00 AM - 11:45 AM & 2:45 PM - 5:00 PM",
@@ -2651,33 +2651,33 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3320",
       "courseName": "ASLI V",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 3320",
       "courseName": "ASLI V",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "ASLI 3320",
       "courseName": "ASLI V",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Mario Salinas",
       "days": {
           "Monday": "9:00 AM - 11:45 AM & 2:45 PM - 5:00 PM",
@@ -2692,20 +2692,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3324",
       "courseName": "ASL Fingerspelling & Numbers",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "ASLI 3324",
       "courseName": "ASL Fingerspelling & Numbers",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Mario Salinas",
       "days": {
           "Monday": "9:00 AM - 11:45 AM & 2:45 PM - 5:00 PM",
@@ -2720,27 +2720,27 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3325",
       "courseName": "Intepreting I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 3325",
       "courseName": "Intepreting I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -2748,33 +2748,33 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3340",
       "courseName": "Intro to Classifiers",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 3340",
       "courseName": "Intro to Classifiers",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "ASLI 3340",
       "courseName": "Intro to Classifiers",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "",
       "days": {
           "Monday": "CLOSED",
@@ -2789,27 +2789,27 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ASLI 3345",
       "courseName": "Interpreting II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 03:00 PM",
-          "Wednesday": "09:00 AM - 03:00 PM",
-          "Thursday": "09:00 AM - 12:00 PM",
+          "Tuesday": "9:00 AM - 3:00 PM",
+          "Wednesday": "9:00 AM - 3:00 PM",
+          "Thursday": "9:00 AM - 12:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "ASLI 3345",
       "courseName": "Interpreting II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Greyz Gonzalez",
       "days": {
-          "Monday": "09:00 AM - 02:30 PM",
+          "Monday": "9:00 AM - 2:30 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "09:00 AM - 02:30 PM",
+          "Wednesday": "9:00 AM - 2:30 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -2817,20 +2817,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1406",
       "courseName": "General Biology I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "BIOL 1406",
       "courseName": "General Biology I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -2843,7 +2843,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1406",
       "courseName": "General Biology I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -2858,20 +2858,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1407",
       "courseName": "General Biology II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "BIOL 1407",
       "courseName": "General Biology II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -2884,7 +2884,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 1407",
       "courseName": "General Biology II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -2899,25 +2899,25 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -2925,7 +2925,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -2938,7 +2938,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2401",
       "courseName": "Anatomy & Physiology I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -2953,25 +2953,25 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2402",
       "courseName": "Anatomy & Physiology II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "BIOL 2402",
       "courseName": "Anatomy & Physiology II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -2979,7 +2979,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2402",
       "courseName": "Anatomy & Physiology II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -2992,7 +2992,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 2402",
       "courseName": "Anatomy & Physiology II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -3007,7 +3007,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3201",
       "courseName": "Ecology & Evolution Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3022,7 +3022,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3215",
       "courseName": "Cell, Molucular Genetics Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3037,7 +3037,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3301",
       "courseName": "Ecology & Evolution",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3052,7 +3052,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3313",
       "courseName": "Genetics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3065,7 +3065,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3313",
       "courseName": "Genetics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -3080,7 +3080,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3315",
       "courseName": "Cell & Molecular Biology",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -3095,7 +3095,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 3401",
       "courseName": "General Microbiology",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3110,7 +3110,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 4302",
       "courseName": "Adv Biochemistry",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3125,7 +3125,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BIOL 4340",
       "courseName": "Astrobiology",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3140,13 +3140,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BLAW 3337",
       "courseName": "Business Law I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
@@ -3155,12 +3155,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1301",
       "courseName": "Intro to Biomedical Sciences I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3168,11 +3168,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1301",
       "courseName": "Intro to Biomedical Sciences I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3181,7 +3181,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1301",
       "courseName": "Intro to Biomedical Sciences I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3194,7 +3194,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1301",
       "courseName": "Intro to Biomedical Sciences I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3207,7 +3207,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1301",
       "courseName": "Intro to Biomedical Sciences I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3222,12 +3222,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1302",
       "courseName": "Intro to Biomedical Sciences II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3235,11 +3235,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1302",
       "courseName": "Intro to Biomedical Sciences II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3248,7 +3248,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1302",
       "courseName": "Intro to Biomedical Sciences II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3261,7 +3261,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1302",
       "courseName": "Intro to Biomedical Sciences II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3274,7 +3274,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 1302",
       "courseName": "Intro to Biomedical Sciences II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3289,24 +3289,24 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2301",
       "courseName": "Integrated Body Systems I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "BMED 2301",
       "courseName": "Integrated Body Systems I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3315,7 +3315,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2301",
       "courseName": "Integrated Body Systems I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3328,7 +3328,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2301",
       "courseName": "Integrated Body Systems I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3341,7 +3341,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2301",
       "courseName": "Integrated Body Systems I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3356,24 +3356,24 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2302",
       "courseName": "Integrated Body Systems II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "BMED 2302",
       "courseName": "Integrated Body Systems II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3382,7 +3382,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2302",
       "courseName": "Integrated Body Systems II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3395,7 +3395,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2302",
       "courseName": "Integrated Body Systems II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3408,7 +3408,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 2302",
       "courseName": "Integrated Body Systems II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3423,7 +3423,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 3102",
       "courseName": "Neurochem",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3438,7 +3438,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 4230",
       "courseName": "Human Genetics/Med Genomics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3453,7 +3453,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 4250",
       "courseName": "Adv Cell Bio",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3468,7 +3468,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 4260",
       "courseName": "Adv Molecular Bio",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3483,7 +3483,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 4280",
       "courseName": "Adv Med Neurosci",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3498,7 +3498,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 4310",
       "courseName": "Medical Biochemistry",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3511,7 +3511,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 4310",
       "courseName": "Medical Biochemistry",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3526,7 +3526,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "BMED 4440",
       "courseName": "Medical Microbiology",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3541,7 +3541,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1109",
       "courseName": "Chemistry for Engineers Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -3556,38 +3556,38 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3595,11 +3595,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3608,7 +3608,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3621,7 +3621,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3634,7 +3634,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Miranda	Villasenor",
       "days": {
           "Monday": "CLOSED",
@@ -3647,7 +3647,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3660,7 +3660,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3673,7 +3673,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1111",
       "courseName": "General Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -3688,25 +3688,25 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3714,11 +3714,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3727,7 +3727,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3740,7 +3740,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3753,7 +3753,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Miranda	Villasenor",
       "days": {
           "Monday": "CLOSED",
@@ -3766,7 +3766,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3779,7 +3779,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3792,7 +3792,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1112",
       "courseName": "General Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -3807,38 +3807,38 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3846,11 +3846,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3859,7 +3859,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3872,7 +3872,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -3885,7 +3885,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Miranda	Villasenor",
       "days": {
           "Monday": "CLOSED",
@@ -3898,7 +3898,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -3911,7 +3911,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -3924,7 +3924,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1311",
       "courseName": "General Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -3939,25 +3939,25 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3965,11 +3965,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -3978,7 +3978,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -3991,7 +3991,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -4004,7 +4004,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Miranda	Villasenor",
       "days": {
           "Monday": "CLOSED",
@@ -4017,7 +4017,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4030,7 +4030,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -4043,7 +4043,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 1312",
       "courseName": "General Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -4058,7 +4058,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2101",
       "courseName": "Analytical Chemistry Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4073,25 +4073,25 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -4099,11 +4099,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -4112,7 +4112,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -4125,7 +4125,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4138,7 +4138,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -4151,7 +4151,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2123",
       "courseName": "Organic Chemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -4166,24 +4166,24 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2125",
       "courseName": "Organic Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 2125",
       "courseName": "Organic Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -4192,7 +4192,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2125",
       "courseName": "Organic Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -4205,7 +4205,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2125",
       "courseName": "Organic Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -4218,7 +4218,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2125",
       "courseName": "Organic Chemistry II Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4233,7 +4233,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2301",
       "courseName": "Analytical Chemistry",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4248,25 +4248,25 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -4274,11 +4274,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -4287,7 +4287,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -4300,7 +4300,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -4313,7 +4313,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Miranda	Villasenor",
       "days": {
           "Monday": "CLOSED",
@@ -4326,7 +4326,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4339,7 +4339,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -4352,7 +4352,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2323",
       "courseName": "Organic Chemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -4367,24 +4367,24 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2325",
       "courseName": "Organic Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "CHEM 2325",
       "courseName": "Organic Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -4393,7 +4393,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2325",
       "courseName": "Organic Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -4406,7 +4406,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2325",
       "courseName": "Organic Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -4419,7 +4419,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2325",
       "courseName": "Organic Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Miranda	Villasenor",
       "days": {
           "Monday": "CLOSED",
@@ -4432,7 +4432,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 2325",
       "courseName": "Organic Chemistry II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4447,7 +4447,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3101",
       "courseName": "Inorganic Chemistry Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4462,7 +4462,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3103",
       "courseName": "Biochemistry I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4477,7 +4477,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3301",
       "courseName": "Inorganic Chemistry",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4492,11 +4492,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3303",
       "courseName": "Biochemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -4505,7 +4505,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3303",
       "courseName": "Biochemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -4518,20 +4518,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3303",
       "courseName": "Biochemistry I",
-      "campus": "Edinburg",
-      "tutorName": "Miranda	Villasenor",
-      "days": {
-          "Monday": "CLOSED",
-          "Tuesday": "11:30 AM - 2:00 PM & 2:30 PM - 5:00 PM",
-          "Wednesday": "3:30 PM - 5:00 PM",
-          "Thursday": "11:30 AM - 1:00 PM",
-          "Friday": "10:00 AM - 12:00 AM"
-      }
-  },
-  {
-      "courseCode": "CHEM 3303",
-      "courseName": "Biochemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4544,7 +4531,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3303",
       "courseName": "Biochemistry I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -4559,7 +4546,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3315",
       "courseName": "Cell and Molecular Biology",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4574,7 +4561,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 3387",
       "courseName": "Biochemistry I Honors",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -4589,7 +4576,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 4302",
       "courseName": "Advanced Biochemistry",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -4604,7 +4591,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 4303",
       "courseName": "Adv Organic Chemistry",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -4619,7 +4606,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CHEM 4320",
       "courseName": "Nutr. & Exercise Biochem.",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Maximilliano Benavidez",
       "days": {
           "Monday": "CLOSED",
@@ -4634,13 +4621,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CIVE 1101",
       "courseName": "Intro to Civil Engr",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -4649,13 +4636,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CIVE 2220",
       "courseName": "Civil Engr Measurements",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -4664,13 +4651,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CIVE 3315",
       "courseName": "Fluid Mechanics and Hydraulics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -4679,13 +4666,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CIVE 3321",
       "courseName": "Mechanics of Materials",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -4694,13 +4681,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CIVE 3340",
       "courseName": "CE Materials",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -4709,13 +4696,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CIVE 3342",
       "courseName": "Structural Analysis I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -4724,13 +4711,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CIVE 3475",
       "courseName": "Geotech Engr & Application",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -4739,14 +4726,14 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CLSC 2429",
       "courseName": "Clinical Micro in Health Care",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -4754,7 +4741,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 1101",
       "courseName": "Intro to Computer Science",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4767,7 +4754,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 1101",
       "courseName": "Intro to Computer Science",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Arturo Gonzalez",
       "days": {
           "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
@@ -4782,7 +4769,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 1470",
       "courseName": "Computer Science I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4795,7 +4782,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 1470",
       "courseName": "Computer Science I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Arturo Gonzalez",
       "days": {
           "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
@@ -4810,7 +4797,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 2333",
       "courseName": "Computer Org & Assembly Lang",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4825,7 +4812,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 2380",
       "courseName": "Computer Science II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4838,7 +4825,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 2380",
       "courseName": "Computer Science II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Arturo Gonzalez",
       "days": {
           "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
@@ -4853,7 +4840,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 3310",
       "courseName": "Mathematical Foundation on CS",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4868,7 +4855,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 3326",
       "courseName": "Obj Orientated Prog in JAVA",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4883,7 +4870,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 3333",
       "courseName": "Algorithms & Data Structures",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4898,7 +4885,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 3336",
       "courseName": "Organization of Program Language",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Arturo Gonzalez",
       "days": {
           "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
@@ -4913,7 +4900,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 4325",
       "courseName": "Automata, Formal Languages, and Comp",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4928,7 +4915,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 4333",
       "courseName": "Database Design & Implement",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4943,7 +4930,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "CSCI 4345",
       "courseName": "Computer Network",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -4958,13 +4945,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ECON 2301",
       "courseName": "Principles of Macroeconomics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
@@ -4973,13 +4960,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "ECON 2302",
       "courseName": "Principles of Microeconomics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
@@ -4988,7 +4975,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 1101",
       "courseName": "Intro to Elec & Comp Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5003,7 +4990,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2106",
       "courseName": "Digital Systems I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5016,12 +5003,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2106",
       "courseName": "Digital Systems I Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5031,7 +5018,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2305",
       "courseName": "Electric Circuits I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5044,12 +5031,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2305",
       "courseName": "Electric Circuits I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5059,7 +5046,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2306",
       "courseName": "Digital Systems I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5072,12 +5059,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2306",
       "courseName": "Digital Systems I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5087,7 +5074,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2317",
       "courseName": "Electrical & Electronic Systems",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -5102,7 +5089,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2319",
       "courseName": "Num Comp & Data Visual",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5117,12 +5104,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 2340",
       "courseName": "Engr Materials",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5132,7 +5119,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3315",
       "courseName": "Electromagntics Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5147,7 +5134,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "EECE 3340",
       "courseName": "Probability & Stats for Engineers",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5162,169 +5149,169 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "FE Prep",
       "courseName": "Mathematics & Statistics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Ethics & Professional Practice",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Engineering Economics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Statics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Dynamics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Mechanics of Materials",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Materials",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Fluid Mechanics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Surveying",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Water Resouces & Environmental",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Structural Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Geotechnical Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "FE Prep",
       "courseName": "Construction Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -5333,90 +5320,90 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Anatomy & Physiology",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "HESI Prep",
       "courseName": "Critical Thinking",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "HESI Prep",
       "courseName": "Grammar",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "HESI Prep",
       "courseName": "Mathematics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "HESI Prep",
       "courseName": "Reading Comprehension",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "HESI Prep",
       "courseName": "Vocabulary",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Amanda Villa",
       "days": {
-          "Monday": "11:30 AM - 04:30 PM",
+          "Monday": "11:30 AM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "12:00 PM - 5:00 PM",
           "Thursday": "CLOSED",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "HESI Prep",
       "courseName": "Anatomy & Physiology",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5424,12 +5411,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Critical Thinking",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5437,12 +5424,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Grammar",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5450,12 +5437,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Mathematics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5463,12 +5450,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Reading Comprehension",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5476,12 +5463,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "HESI Prep",
       "courseName": "Vocabulary",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5491,13 +5478,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MARK 3300",
       "courseName": "Principles of Marketing",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
@@ -5506,7 +5493,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5519,10 +5506,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM -3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -5532,12 +5519,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5545,12 +5532,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5558,11 +5545,11 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -5571,7 +5558,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -5584,7 +5571,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Nolan Salinas",
       "days": {
           "Monday": "9:00 AM - 11:30 AM",
@@ -5597,7 +5584,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -5612,38 +5599,38 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "09:00 AM - 02:30 PM",
-          "Wednesday": "01:15 PM - 05:45 PM",
+          "Tuesday": "9:00 AM - 1:15 PM",
+          "Wednesday": "12:45 PM - 6:15 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5651,24 +5638,24 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "02:00 PM - 05:00 PM",
-          "Wednesday": "03:30 PM - 08:00 PM",
-          "Thursday": "02:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 8:00 PM",
+          "Thursday": "2:00 PM - 5:00 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -5677,7 +5664,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1342",
       "courseName": "Elementary Statistical Methods",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jorge Gonzalez",
       "days": {
           "Monday": "2:30 PM - 4:00 PM",
@@ -5692,13 +5679,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1343",
       "courseName": "Introduction to Biostatistics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
@@ -5707,20 +5694,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1350",
       "courseName": "Fundamentals of Math I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "MATH 1350",
       "courseName": "Fundamentals of Math I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -5735,20 +5722,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1351",
       "courseName": "Fundamentals of Math II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "MATH 1351",
       "courseName": "Fundamentals of Math II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
@@ -5763,7 +5750,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 1414",
       "courseName": "College Algebra",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Arturo Gonzalez",
       "days": {
           "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
@@ -5778,7 +5765,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2346",
       "courseName": "Math for EE & CE",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5793,7 +5780,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5805,11 +5792,11 @@ const TUTOR_SCHEDULE_DATA =
   },
   {
       "courseCode": "MATH 2412",
-      "courseName": "Precalculus",
-      "campus": "Edinburg",
+      "courseName": "PreCalculus",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -5819,24 +5806,24 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
@@ -5845,7 +5832,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2412",
       "courseName": "Precalculus",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -5860,7 +5847,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Paulette Andaverde",
       "days": {
           "Monday": "CLOSED",
@@ -5873,7 +5860,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alex Castro",
       "days": {
           "Monday": "12:00PM - 1:00PM",
@@ -5886,10 +5873,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -5899,25 +5886,25 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5925,14 +5912,27 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "2:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
+      }
+  },
+  {
+      "courseCode": "MATH 2413",
+      "courseName": "Calculus I",
+      "campus": "Edinburg (ELCTR 114)",
+      "tutorName": "Miranda	Villasenor",
+      "days": {
+          "Monday": "CLOSED",
+          "Tuesday": "11:30 AM - 2:00 PM & 2:30 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 5:00 PM",
+          "Thursday": "11:30 AM - 1:00 PM",
+          "Friday": "10:00 AM - 12:00 AM"
       }
   },
 
@@ -5940,10 +5940,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2414",
       "courseName": "Calculus II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -5953,12 +5953,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2414",
       "courseName": "Calculus II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -5968,10 +5968,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MATH 2415",
       "courseName": "Calculus III",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -5983,10 +5983,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1101",
       "courseName": "Intro to Mechanical Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -5996,12 +5996,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1101",
       "courseName": "Intro to Mechanical Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -6009,7 +6009,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1101",
       "courseName": "Intro to Mechanical Engineering",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6024,10 +6024,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1221",
       "courseName": "Engineering Graphics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6037,7 +6037,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 1221",
       "courseName": "Engineering Graphics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Leonardo Alejandre",
       "days": {
           "Monday": "11:45 AM - 4:45 PM",
@@ -6052,10 +6052,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2140",
       "courseName": "Engineering Materials Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6065,12 +6065,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2140",
       "courseName": "Engineering Materials Lab",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -6080,10 +6080,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2301",
       "courseName": "Statics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6093,20 +6093,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2301",
       "courseName": "Statics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "MECE 2301",
       "courseName": "Statics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6121,10 +6121,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2302",
       "courseName": "Dynamics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6134,13 +6134,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2302",
       "courseName": "Dynamics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
           "Monday": "11:00 AM - 12:15",
-          "Tuesday": "11:00 AM -01:45 PM",
+          "Tuesday": "11:00 AM -1:45 PM",
           "Wednesday": "11:00 AM - 12:15",
-          "Thursday": "11:00 AM -01:45 PM",
+          "Thursday": "11:00 AM -1:45 PM",
           "Friday": "CLOSED"
       }
   },
@@ -6149,10 +6149,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2340",
       "courseName": "Engineering Materials",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6162,7 +6162,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 2340",
       "courseName": "Engineering Materials",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6177,10 +6177,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3315",
       "courseName": "Fluid Mechanics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6192,12 +6192,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3335",
       "courseName": "Thermodynamics I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Angelina Anthony",
       "days": {
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "11:00 AM - 04:45 PM",
+          "Wednesday": "11:00 AM - 4:45 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -6205,7 +6205,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3335",
       "courseName": "Thermodynamics I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6220,10 +6220,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3336",
       "courseName": "Thermodynamics II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6233,7 +6233,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3336",
       "courseName": "Thermodynamics II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6246,7 +6246,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3336",
       "courseName": "Thermodynamics II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Leonardo Alejandre",
       "days": {
           "Monday": "11:45 AM - 4:45 PM",
@@ -6261,7 +6261,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3360",
       "courseName": "Heat Transfer",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Leonardo Alejandre",
       "days": {
           "Monday": "11:45 AM - 4:45 PM",
@@ -6276,10 +6276,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3385",
       "courseName": "Mechanical Vibrations",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6291,10 +6291,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3404",
       "courseName": "Mech Engineering Analysis",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6306,7 +6306,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3440",
       "courseName": "Mechanical Engineering Anaylsis I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6321,10 +6321,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3450",
       "courseName": "Mech Engineering Analysis II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6334,7 +6334,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 3450",
       "courseName": "Mech Engineering Analysis II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6349,10 +6349,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE 4322",
       "courseName": "Intro Finite Elements",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6364,10 +6364,10 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MECE3335",
       "courseName": "Thermodynamics I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
-          "Monday": "09:00AM - 12:00PM",
+          "Monday": "9:00AM - 12:00PM",
           "Tuesday": "12:30PM - 3:30PM",
           "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
@@ -6379,13 +6379,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MGMT 3361",
       "courseName": "Principles of Management",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
@@ -6394,7 +6394,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1116",
       "courseName": "SS &ET I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6409,7 +6409,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1117",
       "courseName": "SS &ET II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6424,7 +6424,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1211",
       "courseName": "Music Theory I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6439,7 +6439,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1212",
       "courseName": "Music Theory II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6454,7 +6454,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 1301",
       "courseName": "Fundamentals of Music",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6469,7 +6469,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2116",
       "courseName": "SS &ET III",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6484,7 +6484,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2117",
       "courseName": "SS &ET IV",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6499,7 +6499,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2211",
       "courseName": "Music Theory III",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6514,7 +6514,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 2212",
       "courseName": "Music Theory IV",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6529,7 +6529,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "MUSI 3211",
       "courseName": "Form and Analysis",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jonathan Gonzalez",
       "days": {
           "Monday": "1:30PM - 4:30PM",
@@ -6544,12 +6544,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NURSING",
       "courseName": "1st Semester Nursing",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -6557,12 +6557,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NURSING",
       "courseName": "2nd Semester Nursing",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -6570,12 +6570,12 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "NURSING",
       "courseName": "3rd Semester Nursing",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Francisco Nunez",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "11:00 AM - 04:00 PM",
-          "Wednesday": "09:00 AM - 02:00 PM",
+          "Tuesday": "11:00 AM - 4:00 PM",
+          "Wednesday": "9:00 AM - 2:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -6585,20 +6585,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 1401",
       "courseName": "General Physics I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "PHYS 1401",
       "courseName": "General Physics I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6611,7 +6611,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 1401",
       "courseName": "General Physics I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Samuel Marshall",
       "days": {
           "Monday": "CLOSED",
@@ -6626,20 +6626,20 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 1402",
       "courseName": "General Physics II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
       "courseCode": "PHYS 1402",
       "courseName": "General Physics II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6654,7 +6654,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 2425",
       "courseName": "Physics for Sci & Engr I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6669,7 +6669,7 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "PHYS 2426",
       "courseName": "Physics for Sci & Engr II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
@@ -6684,26 +6684,26 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "QUMT 2341",
       "courseName": "Business Stats I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
   {
       "courseCode": "QUMT 2341",
       "courseName": "Business Stats I",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Fernando Casanova",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "02:00 PM - 05:00 PM",
-          "Wednesday": "03:30 PM - 08:00 PM",
-          "Thursday": "02:00 PM - 05:00 PM",
+          "Tuesday": "2:00 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 8:00 PM",
+          "Thursday": "2:00 PM - 5:00 PM",
           "Friday": "CLOSED"
       }
   },
@@ -6712,13 +6712,13 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "QUMT 3341",
       "courseName": "Business Stats II",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alexis Aguilar",
       "days": {
-          "Monday": "09:45AM - 12:15PM",
-          "Tuesday": "09:45AM - 12:15PM",
-          "Wednesday": "09:45AM - 12:15PM",
-          "Thursday": "09:45AM - 12:15PM",
+          "Monday": "9:45AM - 12:15PM",
+          "Tuesday": "9:45AM - 12:15PM",
+          "Wednesday": "9:45AM - 12:15PM",
+          "Thursday": "9:45AM - 12:15PM",
           "Friday": "CLOSED"
       }
   },
@@ -6727,14 +6727,14 @@ const TUTOR_SCHEDULE_DATA =
   {
       "courseCode": "STAT 3301",
       "courseName": "Applied Statistics",
-      "campus": "Edinburg",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Alonso Gonzalez",
       "days": {
-          "Monday": "01:00 PM - 04:30 PM",
+          "Monday": "1:00 PM - 4:30 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "CLOSED",
-          "Thursday": "01:00 PM - 04:30 PM",
-          "Friday": "09:00 AM - 12:00 PM"
+          "Thursday": "1:00 PM - 4:30 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
