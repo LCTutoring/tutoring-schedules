@@ -5805,7 +5805,7 @@ const TUTOR_SCHEDULE_DATA =
   },
   {
       "courseCode": "MATH 2412",
-      "courseName": "PreCalculus",
+      "courseName": "Precalculus",
       "campus": "Edinburg",
       "tutorName": "Adrian Robledo",
       "days": {
