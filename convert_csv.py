@@ -1,6 +1,21 @@
 #!/usr/bin/env python3
 import csv
 import sys
+import re
+
+def normalize_time(time_str):
+    """Remove leading zeros from hours (01:15 -> 1:15)"""
+    if not time_str or time_str == "CLOSED":
+        return time_str
+    
+    # Replace leading zeros before colons: 01:15 -> 1:15, 09:30 -> 9:30
+    # But keep AM/PM intact
+    def replace_leading_zero(match):
+        return match.group(1).lstrip('0') or '0'
+    
+    # Match 0X: patterns (one or more digits followed by colon)
+    normalized = re.sub(r'(\d{1,2}):', lambda m: (str(int(m.group(1))) + ':'), time_str)
+    return normalized
 
 # Read the CSV file
 csv_file = sys.argv[1] if len(sys.argv) > 1 else "/Users/matthew/Desktop/job/Fall2026_Tutor_Schedules_ADA(Tutor Schedules) (2).csv"
@@ -19,11 +34,11 @@ with open(csv_file, 'r') as f:
             "campus": row["Campus"].strip(),
             "tutorName": row["Tutor Name"].strip(),
             "days": {
-                "Monday": row["Monday"].strip() if row["Monday"].strip() else "CLOSED",
-                "Tuesday": row["Tuesday"].strip() if row["Tuesday"].strip() else "CLOSED",
-                "Wednesday": row["Wednesday"].strip() if row["Wednesday"].strip() else "CLOSED",
-                "Thursday": row["Thursday"].strip() if row["Thursday"].strip() else "CLOSED",
-                "Friday": row["Friday"].strip() if row["Friday"].strip() else "CLOSED"
+                "Monday": normalize_time(row["Monday"].strip()) if row["Monday"].strip() else "CLOSED",
+                "Tuesday": normalize_time(row["Tuesday"].strip()) if row["Tuesday"].strip() else "CLOSED",
+                "Wednesday": normalize_time(row["Wednesday"].strip()) if row["Wednesday"].strip() else "CLOSED",
+                "Thursday": normalize_time(row["Thursday"].strip()) if row["Thursday"].strip() else "CLOSED",
+                "Friday": normalize_time(row["Friday"].strip()) if row["Friday"].strip() else "CLOSED"
             }
         }
         data.append(entry)
