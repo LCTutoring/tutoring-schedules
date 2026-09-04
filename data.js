@@ -5792,7 +5792,7 @@ const TUTOR_SCHEDULE_DATA =
   },
   {
       "courseCode": "MATH 2412",
-      "courseName": "PreCalculus",
+      "courseName": "Precalculus",
       "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Adrian Robledo",
       "days": {
