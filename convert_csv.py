@@ -17,11 +17,14 @@ def normalize_time(time_str):
     normalized = re.sub(r'(\d{1,2}):', lambda m: (str(int(m.group(1))) + ':'), time_str)
     return normalized
 
+def normalize_course_name(course_name):
+    return re.sub(r'\bprecalculus\b', 'Precalculus', course_name, flags=re.IGNORECASE)
+
 # Read the CSV file
 csv_file = sys.argv[1] if len(sys.argv) > 1 else "/Users/matthew/Desktop/job/Fall2026_Tutor_Schedules_ADA(Tutor Schedules) (2).csv"
 
 data = []
-with open(csv_file, 'r') as f:
+with open(csv_file, 'r', encoding='cp1252') as f:
     reader = csv.DictReader(f)
     for row in reader:
         # Skip empty rows
@@ -30,7 +33,7 @@ with open(csv_file, 'r') as f:
         
         entry = {
             "courseCode": row["Course Number"].strip(),
-            "courseName": row["Course Name"].strip(),
+            "courseName": normalize_course_name(row["Course Name"].strip()),
             "campus": row["Campus"].strip(),
             "tutorName": row["Tutor Name"].strip(),
             "days": {
