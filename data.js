@@ -5830,19 +5830,6 @@ const TUTOR_SCHEDULE_DATA =
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
       "campus": "Edinburg (ELCTR 114)",
-      "tutorName": "Arturo Gonzalez",
-      "days": {
-          "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
-          "Tuesday": "3:30 PM - 4:45 PM",
-          "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
-          "Thursday": "3:30 PM - 4:45 PM",
-          "Friday": "CLOSED"
-      }
-  },
-  {
-      "courseCode": "MATH 1314;1414",
-      "courseName": "College Algebra",
-      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Catalina Benavides",
       "days": {
           "Monday": "CLOSED",
