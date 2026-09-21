@@ -225,10 +225,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -279,10 +279,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -320,10 +320,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -374,10 +374,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -505,10 +505,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -589,10 +589,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -953,9 +953,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -1050,9 +1050,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -1104,9 +1104,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -1463,10 +1463,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -1568,9 +1568,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -1814,9 +1814,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -1907,9 +1907,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -1961,9 +1961,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -2043,9 +2043,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jonathan Ponce",
       "days": {
           "Monday": "9:00AM - 1:00PM",
-          "Tuesday": "CLOSED",
+          "Tuesday": "2:45PM - 4:45PM",
           "Wednesday": "9:00AM - 1:00PM & 4:00PM - 6:00PM",
-          "Thursday": "CLOSED",
+          "Thursday": "2:45PM - 4:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -2086,9 +2086,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jorge Camacho",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "12:00PM - 3:00PM",
+          "Tuesday": "9:45AM - 12:45PM",
           "Wednesday": "12:45PM - 3:45PM",
-          "Thursday": "12:00PM - 3:00PM",
+          "Thursday": "9:45AM - 12:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -2101,9 +2101,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jorge Camacho",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "12:00PM - 3:00PM",
+          "Tuesday": "9:45AM - 12:45PM",
           "Wednesday": "12:45PM - 3:45PM",
-          "Thursday": "12:00PM - 3:00PM",
+          "Thursday": "9:45AM - 12:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -2116,9 +2116,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jorge Camacho",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "12:00PM - 3:00PM",
+          "Tuesday": "9:45AM - 12:45PM",
           "Wednesday": "12:45PM - 3:45PM",
-          "Thursday": "12:00PM - 3:00PM",
+          "Thursday": "9:45AM - 12:45PM",
           "Friday": "CLOSED"
       }
   },
@@ -2366,7 +2366,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "CLOSED",
-          "Wednesday": "9:00AM - 1:00PM [9/9/2026 & 9/16/2026]",
+          "Wednesday": "9:00aAM - 1:00PM & 9/9/2026 & 9/16/2026",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -2379,7 +2379,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "CLOSED",
-          "Wednesday": "9:00AM - 1:00PM [9/9/2026 & 9/16/2026]",
+          "Wednesday": "9:00aAM - 1:00PM & 9/9/2026 & 9/16/2026",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -2392,7 +2392,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "CLOSED",
-          "Wednesday": "9:00AM - 1:00PM [9/9/2026 & 9/16/2026]",
+          "Wednesday": "9:00AM - 1:00PM & 9/9/2026 & 9/16/2026",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -2405,10 +2405,10 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Kevin Torres-Vega",
       "days": {
-          "Monday": "9:00AM - 11:30AM",
-          "Tuesday": "10:30AM - 2:00PM",
-          "Wednesday": "9:00AM - 11:30AM",
-          "Thursday": "9:00AM - 12:30PM",
+          "Monday": "9:00AM - 10:45AM",
+          "Tuesday": "9:00AM - 2:45PM",
+          "Wednesday": "9:00AM - 10:45AM & 7:00PM - 8:00PM",
+          "Thursday": "9:00AM - 2:45PM",
           "Friday": "9:00AM - 12:00PM"
       }
   },
@@ -2467,7 +2467,7 @@ const TUTOR_SCHEDULE_DATA =
           "Tuesday": "9:00AM - 10:45AM",
           "Wednesday": "CLOSED",
           "Thursday": "9:00AM - 10:45AM",
-          "Friday": "9:00AM - 12:00PM"
+          "Friday": "CLOSED"
       }
   },
 
@@ -2584,10 +2584,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2597,8 +2597,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2638,10 +2638,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2651,8 +2651,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2692,10 +2692,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2705,8 +2705,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2746,10 +2746,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2759,8 +2759,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2800,10 +2800,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2813,8 +2813,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2841,8 +2841,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2869,10 +2869,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2882,8 +2882,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2897,10 +2897,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2910,8 +2910,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2938,10 +2938,10 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Gabrielle Black",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 3:00 PM",
+          "Tuesday": "CLOSED",
           "Wednesday": "9:00 AM - 3:00 PM",
-          "Thursday": "9:00 AM - 12:00 PM",
-          "Friday": "CLOSED"
+          "Thursday": "9:00 AM - 3:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -2951,8 +2951,8 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Greyz Gonzalez",
       "days": {
           "Monday": "9:00 AM - 2:30 PM",
-          "Tuesday": "CLOSED",
-          "Wednesday": "9:00 AM - 2:30 PM",
+          "Tuesday": "12:30 PM - 1:45 PM",
+          "Wednesday": "9:00 AM - 2:30 PM & 3:30 PM - 7:15 PM",
           "Thursday": "CLOSED",
           "Friday": "9:00 AM - 12:00 PM"
       }
@@ -2992,9 +2992,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -3033,9 +3033,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -3087,9 +3087,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -3141,9 +3141,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -3214,9 +3214,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -3242,9 +3242,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -3329,7 +3329,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3409,7 +3409,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3489,7 +3489,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3569,7 +3569,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3623,7 +3623,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3651,7 +3651,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3679,7 +3679,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3707,7 +3707,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3735,7 +3735,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3763,7 +3763,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3804,7 +3804,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -3963,9 +3963,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4082,9 +4082,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4138,6 +4138,19 @@ const TUTOR_SCHEDULE_DATA =
           "Monday": "CLOSED",
           "Tuesday": "2:00 PM - 5:00 PM",
           "Wednesday": "11:00 AM - 12:00 PM",
+          "Thursday": "CLOSED",
+          "Friday": "CLOSED"
+      }
+  },
+  {
+      "courseCode": "CHEM 1311",
+      "courseName": "General Chemistry I",
+      "campus": "Edinburg (ELCTR 114)",
+      "tutorName": "Henree Maxine Ygoña",
+      "days": {
+          "Monday": "12:15PM - 4:15PM",
+          "Tuesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -4214,9 +4227,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4333,9 +4346,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4441,9 +4454,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4642,9 +4655,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4796,7 +4809,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "12:15PM - 4:15PM",
           "Tuesday": "CLOSED",
-          "Wednesday": "CLOSED",
+          "Wednesday": "1:00 PM - 4:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -4834,9 +4847,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4849,9 +4862,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -4974,10 +4987,10 @@ const TUTOR_SCHEDULE_DATA =
       }
   },
 
-  // ---- CIVE 3340 ----
+  // ---- CIVE 3324 ----
   {
-      "courseCode": "CIVE 3340",
-      "courseName": "CE Materials",
+      "courseCode": "CIVE 3324",
+      "courseName": "Structural Analysis I",
       "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
@@ -4989,10 +5002,10 @@ const TUTOR_SCHEDULE_DATA =
       }
   },
 
-  // ---- CIVE 3342 ----
+  // ---- CIVE 3340 ----
   {
-      "courseCode": "CIVE 3342",
-      "courseName": "Structural Analysis I",
+      "courseCode": "CIVE 3340",
+      "courseName": "CE Materials",
       "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Gerardo Castillo",
       "days": {
@@ -5043,7 +5056,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5058,7 +5071,7 @@ const TUTOR_SCHEDULE_DATA =
           "Tuesday": "3:30 PM - 4:45 PM",
           "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
           "Thursday": "3:30 PM - 4:45 PM",
-          "Friday": "CLOSED"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -5071,7 +5084,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5086,7 +5099,7 @@ const TUTOR_SCHEDULE_DATA =
           "Tuesday": "3:30 PM - 4:45 PM",
           "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
           "Thursday": "3:30 PM - 4:45 PM",
-          "Friday": "CLOSED"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -5099,7 +5112,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5114,7 +5127,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5129,7 +5142,7 @@ const TUTOR_SCHEDULE_DATA =
           "Tuesday": "3:30 PM - 4:45 PM",
           "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
           "Thursday": "3:30 PM - 4:45 PM",
-          "Friday": "CLOSED"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -5142,7 +5155,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5157,7 +5170,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5172,9 +5185,22 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
+      }
+  },
+  {
+      "courseCode": "CSCI 3333",
+      "courseName": "Algorithms & Data Structures",
+      "campus": "Edinburg (ELCTR 114)",
+      "tutorName": "Arturo Gonzalez",
+      "days": {
+          "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
+          "Tuesday": "3:30 PM - 4:45 PM",
+          "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
+          "Thursday": "3:30 PM - 4:45 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -5189,7 +5215,7 @@ const TUTOR_SCHEDULE_DATA =
           "Tuesday": "3:30 PM - 4:45 PM",
           "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
           "Thursday": "3:30 PM - 4:45 PM",
-          "Friday": "CLOSED"
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
 
@@ -5202,7 +5228,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5217,7 +5243,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5232,7 +5258,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -5375,9 +5401,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -5859,9 +5885,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -5885,9 +5911,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -6008,9 +6034,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -6036,9 +6062,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Srinidhi Sompalli",
       "days": {
           "Monday": "10:00 AM - 2:00 PM",
-          "Tuesday": "11:15 AM - 1:15 PM",
-          "Wednesday": "6:00 PM - 8:00PM",
-          "Thursday": "11:15 AM - 1:15 PM",
+          "Tuesday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
+          "Wednesday": "4:00 PM - 8:00PM",
+          "Thursday": "11:15 AM - 1:15 PM & 3:30 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00PM"
       }
   },
@@ -6118,9 +6144,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6134,7 +6160,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "2:30PM - 4:45PM",
-          "Wednesday": "11:00AM - 12:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
           "Thursday": "2:30PM - 4:45PM",
           "Friday": "CLOSED"
       }
@@ -6195,6 +6221,19 @@ const TUTOR_SCHEDULE_DATA =
       "courseCode": "MATH 2413",
       "courseName": "Calculus I",
       "campus": "Edinburg (ELCTR 114)",
+      "tutorName": "Arturo Gonzalez",
+      "days": {
+          "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
+          "Tuesday": "3:30 PM - 4:45 PM",
+          "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
+          "Thursday": "3:30 PM - 4:45 PM",
+          "Friday": "9:00 AM - 12:00 PM"
+      }
+  },
+  {
+      "courseCode": "MATH 2413",
+      "courseName": "Calculus I",
+      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
@@ -6202,6 +6241,19 @@ const TUTOR_SCHEDULE_DATA =
           "Wednesday": "11:00 AM - 12:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
+      }
+  },
+  {
+      "courseCode": "MATH 2413",
+      "courseName": "Calculus I",
+      "campus": "Edinburg (ELCTR 114)",
+      "tutorName": "Jimmy Minero Reyes",
+      "days": {
+          "Monday": "CLOSED",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
+          "Friday": "9:00 AM - 12:00 PM"
       }
   },
   {
@@ -6295,9 +6347,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6392,9 +6444,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6448,9 +6500,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6504,9 +6556,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6532,9 +6584,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6588,9 +6640,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6616,9 +6668,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6865,9 +6917,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6906,9 +6958,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6921,9 +6973,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
@@ -6936,9 +6988,9 @@ const TUTOR_SCHEDULE_DATA =
       "tutorName": "Jimmy Minero Reyes",
       "days": {
           "Monday": "CLOSED",
-          "Tuesday": "1:00 PM - 4:30 PM",
-          "Wednesday": "CLOSED",
-          "Thursday": "1:00 PM - 4:30 PM",
+          "Tuesday": "11:45 PM - 5:00 PM",
+          "Wednesday": "3:30 PM - 7:30 PM",
+          "Thursday": "11:45 PM - 5:00 PM",
           "Friday": "9:00 AM - 12:00 PM"
       }
   },
