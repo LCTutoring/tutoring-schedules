@@ -2145,11 +2145,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2160,11 +2160,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2175,11 +2175,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2190,11 +2190,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2205,11 +2205,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2220,11 +2220,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2235,11 +2235,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2250,11 +2250,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2265,11 +2265,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2280,11 +2280,11 @@ const TUTOR_SCHEDULE_DATA =
       "campus": "Brownsville (BMSLC 2.107)",
       "tutorName": "Ivan Melendez",
       "days": {
-          "Monday": "1:00PM - 4:30PM",
+          "Monday": "1:00PM - 4:30PM & Room: BMSLC 3.204",
           "Tuesday": "CLOSED",
-          "Wednesday": "1:00PM - 5:30PM",
-          "Thursday": "3:30PM - 4:30PM",
-          "Friday": "9:00AM -12:00PM"
+          "Wednesday": "1:00PM - 5:30PM & Room: BMSLC 3.204",
+          "Thursday": "3:30PM - 4:30PM & Room: BMSLC 3.204",
+          "Friday": "9:00AM -12:00PM & Room: BMSLC 3.204"
       }
   },
 
@@ -2366,7 +2366,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "CLOSED",
-          "Wednesday": "9:00aAM - 1:00PM & 9/9/2026 & 9/16/2026",
+          "Wednesday": "9:00AM - 1:00PM & 9/30/26 & 10/7/2026",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -2379,7 +2379,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "CLOSED",
-          "Wednesday": "9:00aAM - 1:00PM & 9/9/2026 & 9/16/2026",
+          "Wednesday": "9:00AM - 1:00PM & 9/30/26 & 10/7/2026",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -2392,7 +2392,7 @@ const TUTOR_SCHEDULE_DATA =
       "days": {
           "Monday": "CLOSED",
           "Tuesday": "CLOSED",
-          "Wednesday": "9:00AM - 1:00PM & 9/9/2026 & 9/16/2026",
+          "Wednesday": "9:00AM - 1:00PM & 9/30/26 & 10/7/2026",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
@@ -6293,21 +6293,6 @@ const TUTOR_SCHEDULE_DATA =
           "Monday": "11:00 AM - 12:15 PM",
           "Tuesday": "CLOSED",
           "Wednesday": "11:00 AM - 4:45 PM",
-          "Thursday": "CLOSED",
-          "Friday": "CLOSED"
-      }
-  },
-
-  // ---- MATH 2415 ----
-  {
-      "courseCode": "MATH 2415",
-      "courseName": "Calculus III",
-      "campus": "Edinburg (ELCTR 114)",
-      "tutorName": "Adrian Robledo",
-      "days": {
-          "Monday": "9:00AM - 12:00PM",
-          "Tuesday": "12:30PM - 3:30PM",
-          "Wednesday": "4:00PM - 8:00 PM",
           "Thursday": "CLOSED",
           "Friday": "CLOSED"
       }
