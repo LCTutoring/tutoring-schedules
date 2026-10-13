@@ -5075,6 +5075,21 @@ const TUTOR_SCHEDULE_DATA =
       }
   },
 
+  // ---- CSCI 1380 ----
+  {
+    "courseCode": "CSCI 1380",
+      "courseName": "Introduction to Programming in Python",
+      "campus": "Edinburg (ELCTR 114)",
+      "tutorName": "Arturo Gonzalez",
+      "days": {
+          "Monday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
+          "Tuesday": "3:30 PM - 4:45 PM",
+          "Wednesday": "9:30 AM - 10:30 AM & 2:00 PM - 4:45 PM",
+          "Thursday": "3:30 PM - 4:45 PM",
+          "Friday": "9:00 AM - 12:00 PM"
+      }
+  },
+
   // ---- CSCI 1470 ----
   {
       "courseCode": "CSCI 1470",
