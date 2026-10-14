@@ -751,6 +751,21 @@ const TUTOR_SCHEDULE_DATA =
           "Friday": "9:00AM - 12:00PM"
       }
   },
+  
+  // ---- CSCI 1380 ----
+  {
+      "courseCode": "CSCI 1380",
+      "courseName": "Introduction to Programming in Python",
+      "campus": "Brownsville (BMSLC 2.107)",
+      "tutorName": "Paulette Andaverde",
+      "days": {
+          "Monday": "9:00AM - 11:30AM",
+          "Tuesday": "CLOSED",
+          "Wednesday": "CLOSED",
+          "Thursday": "CLOSED",
+          "Friday": "9:00AM - 12:00PM"
+      }
+  },
 
   // ---- CSCI 1470 ----
   {
@@ -5076,6 +5091,19 @@ const TUTOR_SCHEDULE_DATA =
   },
 
   // ---- CSCI 1380 ----
+    {
+      "courseCode": "CSCI 1380",
+      "courseName": "Introduction to Programming in Python",
+      "campus": "Edinburg (ELCTR 114)",
+      "tutorName": "Paulette Andaverde",
+      "days": {
+          "Monday": "CLOSED",
+          "Tuesday": "2:30PM - 4:45PM",
+          "Wednesday": "11:00AM - 1:00PM",
+          "Thursday": "2:30PM - 4:45PM",
+          "Friday": "CLOSED"
+      }
+  },
   {
     "courseCode": "CSCI 1380",
       "courseName": "Introduction to Programming in Python",
