@@ -5899,19 +5899,6 @@ const TUTOR_SCHEDULE_DATA =
       "courseCode": "MATH 1314;1414",
       "courseName": "College Algebra",
       "campus": "Edinburg (ELCTR 114)",
-      "tutorName": "Catalina Benavides",
-      "days": {
-          "Monday": "CLOSED",
-          "Tuesday": "9:00 AM - 1:15 PM",
-          "Wednesday": "12:45 PM - 6:15 PM",
-          "Thursday": "CLOSED",
-          "Friday": "CLOSED"
-      }
-  },
-  {
-      "courseCode": "MATH 1314;1414",
-      "courseName": "College Algebra",
-      "campus": "Edinburg (ELCTR 114)",
       "tutorName": "Humberto Escobedo",
       "days": {
           "Monday": "CLOSED",
